@@ -1,7 +1,15 @@
 body{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: black;
+}
+
+html{
+  color: white;
+}
+
+ul{
+  list-style-type: none;
 }
 
 a{
@@ -17,7 +25,8 @@ a{
   #cf556c 78%, #b12a5b 100%);
   display: grid;
   grid-auto-flow: column;
-  padding: 0 20px 0 20px;
+  padding: 0px 20px 10px 20px;
+  border-radius: 5px;
 }
 
     .header a{
@@ -31,19 +40,56 @@ a{
       
     }
 
+    .header img{
+      width: 210px;     
+    }
+
+/*Content Lateral Esquerda */
+
+.content_lateral_esq{
+  
+  display: grid;
+  grid-auto-flow: column;
+  height: 100%;
+  position: sticky;
+  top: 0;
+}
+    
+.menu_esq{
+  margin-top: 10px;
+  height: 325px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 26px;
+  font-weight: 400;
+  position: sticky;
+  top: 0;
+  padding: 15px;
+}
+    .menu_esq ul li a{
+    color: gold;
+    margin: 0;
+    padding: 0;
+    }
+    .menu_esq ul{
+      margin: 0;
+      padding: 0;
+    }
+    .menu_esq ul li{
+      margin: 0;
+      padding: 0;
+    }
+
 /* Content */
-.content{
-  
-  max-width: 100%;
-  
+.content_tb{
+   max-width: 100%; 
 }
 
-      .content table {
-        margin: auto;
+      .content_tb table {
+        
         margin-top: 10px;
         width: 70%;
       }
-            .content th{
+            .content_tb th{
               background-color: rgb(66, 53, 53);
               border: 0px solid transparent;
               color: rgb(199, 202, 36);
@@ -55,18 +101,18 @@ a{
               
             }
 
-            .content th:nth-child(6n+1){
+            .content_tb th:nth-child(6n+1){
               color: mediumseagreen;
 
             }
 
             /* Linhas */
-            .content tr {
+            .content_tb tr {
               border: 1px solid blue;              
             }
 
             /* Colunas */
-            .content td {
+            .content_tb td {
               padding: 10px;
               margin-left: 15px;     
               background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
@@ -74,7 +120,7 @@ a{
             }
 
             /* Primeira Coluna */
-            .content td:nth-child(6n+1){
+            .content_tb td:nth-child(6n+1){
               background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
               font-family: 'Tilt Prism', cursive;
               font-size: 18px;
@@ -83,7 +129,7 @@ a{
               width: 100px;
             }
             /* Segunda Coluna  */
-            .content td:nth-child(6n+2){
+            .content_tb td:nth-child(6n+2){
               color: darkblue;
               font-size: 18px;
               font-family: 'Frijole', cursive;
@@ -97,14 +143,14 @@ a{
               animation-direction: alternate;
             }
             /* Clor Numeros, font-family, da Coluna 3 a 6 */
-            .content td:nth-child(1n+3){
+            .content_tb td:nth-child(1n+3){
               font-family: 'Yuji Mai', serif;
               color: darkred;
               font-weight: 700;
               font-size: 20px;
             }
 
-            .content td:nth-child(5n+6){
+            .content_tb td:nth-child(5n+6){
               color: rgb(0, 20, 136);
 
             }
