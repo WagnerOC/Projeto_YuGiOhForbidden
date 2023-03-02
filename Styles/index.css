@@ -1,6 +1,7 @@
 body{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 0;
+  margin-left: 15%;
+  margin-right: 15%;
   background-color: black;
 }
 
@@ -56,14 +57,16 @@ a{
 }
     
 .menu_esq{
-  margin-top: 10px;
+  margin-top: 0px;
   height: 325px;
   font-family: 'Fredoka One', cursive;
   font-size: 26px;
   font-weight: 400;
   position: sticky;
-  top: 0;
-  padding: 15px;
+  top: 30px;
+  padding: 0px 15px 0 10px;
+  box-sizing: border-box;
+  width: 180px;
 }
     .menu_esq ul li a{
     color: gold;
@@ -81,7 +84,8 @@ a{
 
 /* Content */
 .content_tb{
-   max-width: 100%; 
+   max-width:100% ; 
+  
 }
 
       .content_tb table {
@@ -97,6 +101,8 @@ a{
               font-size: 24px;
               padding: 15px;
               border-radius: 5px;
+              position: sticky;
+              top: 0;
               
               
             }
