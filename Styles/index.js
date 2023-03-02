@@ -1,3 +1,4 @@
+/*
 var nome = prompt("Digite seu nome: ")
 var idade = prompt("Digite sua idade: ")
 
@@ -11,3 +12,4 @@ if (idade >= 10) {
   + "Infelizmente sua idade não é compatível para acessar as dicas do Game \n" 
   + ":(")
 }
+*/

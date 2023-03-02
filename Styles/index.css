@@ -17,6 +17,11 @@ a{
   text-decoration: none;
 }
 
+iframe{
+  margin-top: 100%;
+  width: 90%;
+}
+
 /*          */
 /*  Header */
 .header {
@@ -66,7 +71,7 @@ a{
   top: 30px;
   padding: 0px 15px 0 10px;
   box-sizing: border-box;
-  width: 180px;
+  width: 340px;
 }
     .menu_esq ul li a{
     color: gold;
@@ -76,10 +81,12 @@ a{
     .menu_esq ul{
       margin: 0;
       padding: 0;
+      line-height: 40px;
     }
     .menu_esq ul li{
       margin: 0;
       padding: 0;
+      
     }
 
 /* Content */
@@ -178,7 +185,7 @@ a{
                 color: rgb(16, 16, 223);
               }
             }
-
+            /* MAGIC CARDS */
             .card_magic td:nth-child(5n+2){
               color: green;
               animation-name: card_magic;
@@ -188,7 +195,7 @@ a{
             }
 
             
-
+            
             @keyframes card_magic{
               0%{
                 color: rgb(20, 202, 20);
@@ -204,5 +211,31 @@ a{
               }
               100%{
                 color: rgb(25, 122, 25);
+              }
+            }
+            /* TRAP CARDS */
+            .trap_cards td:nth-child(5n+2){
+              color: rgb(196, 28, 131);
+              animation-name: trap_cards;
+              animation-delay: 0s;
+              animation-duration: 60s;
+              animation-iteration-count: infinite;
+            }
+
+            @keyframes trap_cards{
+              0%{
+                color: rgb(170, 33, 118);
+              }
+              40%{
+                color: rgb(170, 33, 118);
+              }
+              60%{
+                color: rgb(170, 33, 118);
+              }
+              80%{
+                color: rgb(170, 33, 118);
+              }
+              100%{
+                color: rgb(170, 33, 118);
               }
             }
