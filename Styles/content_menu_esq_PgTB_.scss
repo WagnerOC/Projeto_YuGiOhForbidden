@@ -1,0 +1,45 @@
+/*Content Lateral Esquerda */
+@import './variaveis_pg_tb_.scss';  /* Importando variaveis */
+
+.content_lateral_esq{
+  
+  display: grid;
+  grid-auto-flow: column;
+  height: 100%;
+  position: sticky;
+  top: 0;
+
+    .menu_esq{
+      margin-top: 0px;
+      height: 325px;
+      font-family: 'Fredoka One', cursive;
+      font-size: 26px;
+      font-weight: 400;
+      position: sticky;
+      top: 30px;
+      padding: 0px 15px 0 10px;
+      box-sizing: border-box;
+      width: 340px;
+    }
+      .menu_esq ul li a{
+        color: $color_menu_esq_a;
+        margin: 0;
+        padding: 0;
+        &:hover{
+          color: $color_menu_esq_a_hover;
+          transition: 500ms;
+        }
+        
+      }  
+      .menu_esq ul{
+        margin: 0;
+        padding: 0;
+        line-height: 40px;
+      }
+      .menu_esq ul li{
+        margin: 0;
+        padding: 0;
+        
+      }
+}
+    

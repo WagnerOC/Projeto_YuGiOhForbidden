@@ -1,0 +1,246 @@
+
+/* Content da Tabela */
+
+@import './variaveis_pg_tb_.scss'; /* importando variaveis */
+
+
+.content_tb {
+  max-width: 100%;
+    /* Tabela */
+    table{
+      margin-top: 10px;
+      width: 30%;
+    }
+    /* N CARTA ATK DFS PASS STAR */
+    th{
+      background-color: $cabecalho_tb_bckg;
+      border: 0px solid transparent;
+      color: $cor_text_cab_tb;
+      font-family: "Bebas Neue", cursive;
+      font-size: 24px;
+      padding: 15px;
+      border-radius: 5px;
+      position: sticky;
+      top: 0;
+    }
+    /* Cabeçalho do N° */
+    th:nth-child(6n + 1) {
+      color: $color_cab_tb_N;
+    }
+    /*Cabeçalho CARTA*/
+    th:nth-child(2) {
+      background-image: url(/imgs/card.png);
+      background-size: 18px;
+      background-repeat: no-repeat;
+      background-position-y: 52%;
+      background-position-x: 65%;
+    }
+    /*Cabeçalho ATK*/
+    th:nth-child(3) {
+      background-image: url(/imgs/espada.png);
+      background-size: 18px;
+      background-repeat: no-repeat;
+      background-position-y: 56%;
+      background-position-x: 93%;
+    }
+    /*Cabeçalho DFS*/
+    th:nth-child(4) {
+      background-image: url(/imgs/escudo.png);
+      background-size: 18px;
+      background-repeat: no-repeat;
+      background-position-y: 56%;
+      background-position-x: 93%;
+    }
+    /*Cabeçalho PASS*/
+    th:nth-child(5) {
+      background-image: url(/imgs/password.png);
+      background-size: 28px;
+      background-repeat: no-repeat;
+      background-position-y: 60%;
+      background-position-x: 95%;
+    }
+    /* Cabeçalho da Starchips */
+    th:nth-child(6) {
+      background-image: url(/imgs/starchip.png);
+      background-size: 17px;
+      background-repeat: no-repeat;
+      background-position-y: 56%;
+      background-position-x: 98%;
+    }
+
+        /* Todas as Colunas */
+        td {
+          padding: 9px;
+          margin-left: 15px;
+          background-image: $bckg_color_table_td;
+        }
+        
+          /* Primeira Coluna */
+          td:nth-child(6n + 1) {
+            background: $bckg_color_first_td;
+            background-blend-mode: multiply, multiply;
+            font-family: "Phudu", cursive;
+            font-size: 22px;
+            color: $color_first_td;
+            border-radius: 10px;
+            width: 100px;
+          }
+          /* Segunda Coluna  */
+          td:nth-child(6n + 2) {
+            font-size: 18px;
+            font-family: "Frijole", cursive;
+            font-weight: 100;
+            width: 300px;
+            letter-spacing: 3px;
+            animation-name: colunas;
+            animation-duration: 500ms;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            &:hover{
+              animation-name: hover;
+              animation-duration: 500ms;
+              animation-delay: 0s;
+              animation-iteration-count: infinite;
+              @keyframes hover {
+                0%{color: $keyf_color_hover_second_td_0porcento;}
+                100%{color: $keyf_color_hover_second_td_100porcento;}
+              }
+            }           
+          }
+          /* Animação Segunda Coluna*/
+          @keyframes colunas {
+            0% {
+              color: $keyf_color_second_td_0pct;
+            }
+            100% {
+              color: $keyf_color_second_td_100pct;
+            }
+          }
+          
+          /* Font-family, Color ATK DEF PASS */
+          td:nth-child(1n + 3) {
+            font-family: "Yuji Mai", serif;
+            color: $color_atk_dfs_td;
+            font-weight: 700;
+            font-size: 20px;
+          }
+          
+          /*COLUNA do PASSWORD*/
+          td:nth-child(5) {
+            color: $color_password_td;
+          }
+          
+          /*COLUNA da STARCHIPS*/
+          td:nth-child(6) {
+            color: $color_starchips_td;
+            text-align: center;
+            font-size: 18px;
+            background-color: $bckg_color_table_td;
+          }
+  
+    /* MAGIC CARDS */
+    .card_magic td:nth-child(5n + 2) {
+      animation-name: card_magic;
+      animation-delay: 0s;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      transition: 500ms;
+      &:hover{
+        animation-name: hover_magic;
+        animation-delay: 0s;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        transition: 500ms;
+      }
+      @keyframes hover_magic{
+        0%{
+          color:$key_hover_color_magicCards_0pct
+        }
+        100%{
+          color:$key_hover_color_magicCards_100pct
+        }
+      }
+    }
+    
+    /*Animação Magic Cards*/
+    @keyframes card_magic {
+      0% {
+        color: $key_color_magicCards_0pct;
+      }
+      100% {
+        color: $key_color_magicCards_100pct;
+      }
+    }
+
+    /* TRAP CARDS */
+    .trap_cards td:nth-child(5n + 2) {
+      animation-name: trap_cards;
+      animation-delay: 0s;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      &:hover{
+        animation-name: hover_trap;
+        animation-delay: 0s;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        transition: 500ms;
+      }
+      @keyframes hover_trap{
+        0%{
+          color: $key_hover_color_trapCards_0pct;
+        }
+        100%{
+          color: $key_hover_color_trapCards_100pct;
+        }
+      }
+    }
+    
+
+    /*Animação TRAP CARDS */
+    @keyframes trap_cards {
+      0% {
+        color: $key_color_trapCards_0pct;
+      }
+      100% {
+        color: $key_color_trapCards_100pct;
+      }
+    }
+
+    /*RITUAL CARDS*/
+    .ritual_cards td:nth-child(5n + 2) {
+      animation-name: ritual_cards;
+      animation-delay: 0s;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      &:hover{
+        animation-name: hover_ritual;
+        animation-delay: 0s;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        transition: 500ms;
+      }
+      @keyframes hover_ritual{
+        0%{
+          color:$key_hover_color_ritualCards_0pct;
+        }
+        100%{
+          color:$key_hover_color_ritualCards_100pct;
+        }
+      }
+    }
+    
+    /*Animação Ritual Cards*/
+    @keyframes ritual_cards {
+      0% {
+        color: $key_color_ritualCards_0pct;
+      }
+      100% {
+        color: $key_color_ritualCards_100pct;
+      }
+    }         
+}
+
+
+
+

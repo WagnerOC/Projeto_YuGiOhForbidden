@@ -1,0 +1,39 @@
+
+body{
+  margin-top: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: black;
+}
+
+html{
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+iframe{
+  margin-top: 100%;
+  width: 90%;
+}
+
+/* Header */
+@import './headerPageTB_.scss';
+
+/* Tabela de Cartas */
+
+@import './contentPgTB_.scss';
+
+/* Menu Lateral Esquerda */
+@import './content_menu_esq_PgTB_.scss';
+
+/* Cards ToolTip | Passando o mouse sobre a carta*/
+@import './cards_tooltip_.scss';
+
+
