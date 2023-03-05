@@ -9,6 +9,14 @@
   position: sticky;
   top: 0;
 
+    .logo_yu_mScreen{
+      display: none;
+    }
+
+    .psOne{
+      display: none;
+    }
+
     .menu_esq{
       margin-top: 0px;
       height: 325px;
@@ -42,4 +50,151 @@
         
       }
 }
-    
+
+@media screen and (min-width: 701px) and (max-width: 1262px) {  
+  .content_lateral_esq{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+  
+      .menu_esq{
+        margin-top: 10px;
+        background-color: rgb(148, 148, 196);
+        height: 100%;
+        font-family: 'Fredoka One', cursive;
+        font-size: 16px;
+        font-weight: 400;
+        position: sticky;
+        top: 57px;
+        padding: 10px 5px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;      
+      }
+      .psOne{
+        display: none;
+      }
+        .menu_esq ul li a{
+          color: $color_menu_esq_a;
+          margin: 0 0 0 10px;
+          padding: 5px;
+          background-color: #333;
+          border-radius: 5px;
+          &:hover{
+            color: $color_menu_esq_a_hover;
+            transition: 500ms;
+          }
+          
+        }  
+        .menu_esq ul{
+          margin: 0;
+          padding: 0;
+          line-height: 40px;
+          float: left;
+        }
+        .menu_esq ul li{
+          margin: 0;
+          padding: 0 8px 0 0;
+          display: inline-block;
+          &:hover{
+            box-shadow: 3px 1px 8px purple;
+            border-radius: 8px;
+            transition: 500ms;
+          }
+        }
+  }
+
+}
+
+
+
+/* RESPONSIVIDADE MEDIA SCREEN  */
+@media screen and (min-width: 0px) and (max-width: 900px){
+  .content_lateral_esq{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    border-radius: 10px;
+    background-color: transparent;
+  
+      .menu_esq{
+        background-color:$bckg_clr_menu_esq_mScreen_719;
+        height: 100%;
+        width: 91%;
+        margin-left:12%;
+        margin-top: 50px;
+        font-family: 'Fredoka One', cursive;
+        font-size: 19px;
+        font-weight: 400;
+        position: sticky;
+        top: 63px;
+        padding: 2px 0px;
+        border-radius: 10px;  
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253);
+        text-align: center;      
+      }
+        /* DIV ONDE ESTAO AS IMGS */
+        .grid_img_latEsq{
+          display: grid;
+          grid-auto-flow: column;
+          padding: 10px;
+          box-sizing: border-box;
+        }
+        
+        /* LOGO YU GI OH */
+        .logo_yu_mScreen{
+          display: inline-block;
+          width: 150px;
+          margin-top: 5px;
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253);
+          border-radius: 5px;
+        }
+
+        .psOne{
+          width: 150px;
+          display: inline-block;
+          margin-top: 20px;
+        }
+
+        /* CD YU GI OH */
+        .cd_width{
+          display: inline-block;
+          width: 60px;
+        }
+        .menu_esq ul li a{
+          color: $color_menu_esq_a;
+          margin: 0 0 0 0px;
+          padding: 7px 5px;
+          background-color: #359;
+          border-radius: 5px;
+          &:hover{
+            color: $color_menu_esq_a_hover;
+            transition: 500ms;
+          }
+          &:active{
+            color:#959;
+          }        
+        }  
+
+        .menu_esq ul{
+          margin: 0;
+          padding: 0;
+          line-height: 40px;
+          float: left;
+        }
+        .menu_esq ul li{
+          margin: 0;
+          padding: 0 8px 0 0;
+          display: inline-block;
+          &:hover{
+            box-shadow: 3px 1px 8px purple;
+            border-radius: 8px;
+            transition: 500ms;
+          }
+        }
+  }
+}

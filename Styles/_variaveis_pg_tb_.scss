@@ -2,10 +2,23 @@
 /* Content | Table */
 
 /*BACKG BODY*/
-$backg_body:linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+$backg_body_pgTb:linear-gradient(to right, #434343 0%, black 100%);
+
+
+/*HEADER*/
+
+/*BACKG HEADER | COLOR HEADER */
+$backg_color_header:linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+$color_header:whitesmoke;
+
+
+/*TABLE*/
+
+/*CONTENT TABLE*/
+$content_bkgr_co_TB:linear-gradient(to top, #491636 0%, #210d3b 100%);
 
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
-$cabecalho_tb_bckg:rgb(134, 104, 59);
+$cabecalho_tb_bckg_co:rgb(134, 104, 59);
 $cor_text_cab_tb:rgb(199, 202, 36);
 $color_cab_tb_N:mediumseagreen;
 
@@ -14,16 +27,19 @@ $bckg_color_table_td:linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 $bckg_color_first_td:linear-gradient(to bottom,rgba(255, 255, 255, 0.15) 0%,rgba(0, 0, 0, 0.15) 100%),radial-gradient(at top center,rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.4) 120%)#989898;
 $color_first_td:rgb(252, 187, 7);
 
-/*COLOR ANIMAÇOES E HOVER DA SEGUNDA COLUNA */
+/* CARTA | COLOR ANIMAÇOES E HOVER DA SEGUNDA COLUNA */
 $keyf_color_second_td_0pct:rgb(8, 64, 68);
 $keyf_color_second_td_100pct:rgb(2, 29, 31);
 $keyf_color_hover_second_td_0porcento:rgb(45, 87, 90);
 $keyf_color_hover_second_td_100porcento:rgb(81, 88, 88);
 
 /*CORES DAS COLUNAS | ATK | DFS | PASS | STARS */
-$color_atk_dfs_td:rgb(143, 62, 62);
+$color_atk_dfs_td:rgb(187, 12, 12);
 $color_password_td:rgb(36, 28, 151);
 $color_starchips_td:rgb(173, 163, 18);
+
+
+/*CARDS*/
 
 /*MAGIC CARDS*/
 $key_color_magicCards_0pct:rgb(12, 116, 12);
@@ -49,3 +65,8 @@ $key_hover_color_ritualCards_100pct:rgb(47, 25, 170);
 $color_menu_esq_a: gold;
 $color_menu_esq_a_hover:rgb(212, 187, 41);
 
+
+/* MEDIA SCREEN */
+
+/* CONTENT_MENU_ESQUERDA | 0 A 719 */
+$bckg_clr_menu_esq_mScreen_719:rgb(151, 151, 172);

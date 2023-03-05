@@ -3,22 +3,28 @@
 
 @import './variaveis_pg_tb_.scss'; /* importando variaveis */
 
-
+/* Content da tabela */
 .content_tb {
-  max-width: 100%;
+  max-width: 70%;
+  background-image: $content_bkgr_co_TB;
+  margin: 10px 0 0 0;
+  padding: 0px;
+  box-shadow: 0px 2px 8px 0px rgba(153, 0, 255, 0.507);
+  
     /* Tabela */
     table{
-      margin-top: 10px;
-      width: 30%;
+      margin-top: 0px;
+      width: 100%;
     }
+
     /* N CARTA ATK DFS PASS STAR */
     th{
-      background-color: $cabecalho_tb_bckg;
+      background-color: $cabecalho_tb_bckg_co;
       border: 0px solid transparent;
       color: $cor_text_cab_tb;
       font-family: "Bebas Neue", cursive;
       font-size: 24px;
-      padding: 15px;
+      padding: 12px;
       border-radius: 5px;
       position: sticky;
       top: 0;
@@ -241,6 +247,345 @@
     }         
 }
 
+/* MEDIA SCREEN | RESPONSIVIDADE */
+@media screen and (min-width: 901px) and (max-width: 1262px){
+  body{
+    margin-left: 5%;
+  }
+
+  .content_tb {
+    max-width: 100%;
+    margin: auto;
+    background-image: $content_bkgr_co_TB;
+    margin: 10px 0 0 0;
+    padding: 0px;
+    box-shadow: 0px 2px 8px 0px rgba(153, 0, 255, 0.507);
+    border-radius: 10px;
+    animation-name: content_tb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+
+    @keyframes content_tb{
+      0%{
+        box-shadow: 0px 2px 2px 1px rgba(153, 0, 255, 0.507);
+        background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+      }
+      25%{
+        box-shadow: 0px 2px 2px 1px rgba(255, 153, 0, 0.507);
+      }
+      50%{
+        box-shadow: 0px 2px 2px 1px rgba(0, 102, 255, 0.507);
+      }
+      75%{
+        box-shadow: 0px 2px 2px 1px rgba(0, 255, 34, 0.507);
+      }
+      100%{
+        box-shadow: 0px 2px 2px 1px rgba(255, 0, 179, 0.507);
+        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+      }
+    }
+       
+      /* Tabela */
+      table{
+        margin-top: 0px;
+        width: 100%;
+      }
+  
+      /* N CARTA ATK DFS PASS STAR */
+      th{
+        background-color: $cabecalho_tb_bckg_co;
+        border: 0px solid transparent;
+        color: $cor_text_cab_tb;
+        font-family: "Bebas Neue", cursive;
+        font-size: 22px;
+        padding: 10px;
+        border-radius: 5px;
+        position: sticky;
+        top: 0;
+      }
+      /* Cabeçalho do N° */
+      th:nth-child(1) {
+        color: $color_cab_tb_N;
+      }
+      /*Cabeçalho CARTA*/
+      th:nth-child(2) {
+        background-image: url(/imgs/card.png);
+        background-size: 18px;
+        background-repeat: no-repeat;
+        background-position-y: 52%;
+        background-position-x: 65%;
+      }
+      /*Cabeçalho ATK*/
+      th:nth-child(3) {
+        background-image: url(/imgs/espada.png);
+        background-size: 18px;
+        background-repeat: no-repeat;
+        background-position-y: 56%;
+        background-position-x: 93%;
+      }
+      /*Cabeçalho DFS*/
+      th:nth-child(4) {
+        background-image: url(/imgs/escudo.png);
+        background-size: 18px;
+        background-repeat: no-repeat;
+        background-position-y: 56%;
+        background-position-x: 93%;
+      }
+      /*Cabeçalho PASS*/
+      th:nth-child(5) {
+        background-image: url(/imgs/password.png);
+        background-size: 28px;
+        background-repeat: no-repeat;
+        background-position-y: 60%;
+        background-position-x: 83%;
+      }
+      /* Cabeçalho da Starchips */
+      th:nth-child(6) {
+        background-image: url(/imgs/starchip.png);
+        background-size: 17px;
+        background-repeat: no-repeat;
+        background-position-y: 56%;
+        background-position-x: 85%;
+      }
+  
+          /* Todas as Colunas */
+          td {
+            padding: 7px;      
+            margin: 1px;
+          }
+          
+            /* Coluna N° */
+            td:nth-child(1) {
+              font-size: 18px;
+              width: 0px;
+            }
+            /* Coluna CARTA */
+            td:nth-child(2) {
+              font-size: 15px;
+              width: 0;         
+            }
+            
+            /* Coluna ATK  */
+            td:nth-child(3) {
+              font-size: 17px;
+              width: 30px;     
+            }
+
+            /* Coluna DEF  */
+            td:nth-child(4) {
+              font-size: 17px;
+              width: 30px;     
+            }
+            
+            /*COLUNA do PASSWORD*/
+            td:nth-child(5) {
+              font-size: 17px;
+              padding: 0 2px 0 2px;
+              width: 130px;
+            }
+            
+            /*COLUNA da STARCHIPS*/
+            td:nth-child(6) {
+              color: $color_starchips_td;
+              text-align: justify;
+              font-size: 16px;
+              width: 100px;
+            }
+  }
+}
 
 
+/* MEDIA SCREEN RESPONSIVIDADE */
+@media screen and (min-width: 901px) and (max-width: 1085px){
+  body{
+    margin-left: 0;
+    margin-right: 0;
+  }
+ 
+  .content_tb {
+    max-width: 0%;
+    margin: 3px 0 0 0;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding: 0px;
+    box-shadow: 0px 2px 8px 0px rgba(153, 0, 255, 0.507);
+    animation-name: content_tb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
 
+    @keyframes content_tb{
+      0%{
+        box-shadow: 0px 2px 2px 1px rgba(153, 0, 255, 0.507);
+        background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+      }
+      25%{
+        box-shadow: 0px 2px 2px 1px rgba(255, 153, 0, 0.507);
+      }
+      50%{
+        box-shadow: 0px 2px 2px 1px rgba(0, 102, 255, 0.507);
+      }
+      75%{
+        box-shadow: 0px 2px 2px 1px rgba(0, 255, 34, 0.507);
+      }
+      100%{
+        box-shadow: 0px 2px 2px 1px rgba(255, 0, 179, 0.507);
+        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+      }
+    }
+    
+      /* Tabela */
+      table{
+        font-size: 10px;
+        margin: auto;
+      }
+
+      /* N CARTA ATK DFS PASS STAR */
+      th{
+        width: 100%;
+        font-size: 17px;
+        background-image: url(none);
+      }
+
+      th:nth-child(1) {       
+        background-image: url(none);
+        width: 0;
+      }
+
+      /*Cabeçalho CARTA*/
+      th:nth-child(2) {       
+        background-image: url(none);
+      }
+      /*Cabeçalho ATK*/
+      th:nth-child(3) { 
+        background-image: url(none);
+      }
+      /*Cabeçalho DFS*/
+      th:nth-child(4) {
+        background-image: url(none);
+      }
+      /*Cabeçalho PASS*/
+      th:nth-child(5) {
+        background-image: url(none);      
+      }
+      /* Cabeçalho da Starchips */
+      th:nth-child(6) {  
+        background-image: url(none);
+      }
+
+        /*COLUNA da STARCHIPS*/
+        td:nth-child(6) {
+          text-align: justify;
+        }
+  }
+      
+}
+
+/* RESPONSIVIDADE MEDIA SCREEN */
+@media screen and (min-width: 0px) and (max-width: 900px){
+    body{
+      margin-left: 4%;
+      margin-right: 1%;
+      background-image: url(/imgs/exodia.jpg);
+    }
+    
+    .content_tb {
+      max-width: 90%;
+      margin: 20px 0 0 0;
+      margin-left: 1%;
+      margin-right: 5%;
+      padding: 0px;
+      box-shadow: 0px 2px 8px 0px rgba(153, 0, 255, 0.507);
+      
+        /* Tabela */
+        table{
+          margin:auto ;
+          width: 0%;
+        }
+
+        /* N CARTA ATK DFS PASS STAR */
+        th{
+          width: 0%;
+          font-size: 17px;
+          padding: 8px 0;
+          position: sticky;
+          top: 0;
+          background-color: rgb(53, 46, 46);
+          background-image: url(none);
+        }
+        /* COLUNA N ° CABEÇALHO*/
+        th:nth-child(1) {       
+          background-image: url(none);
+          padding: 20px;   
+        }
+
+        th:nth-child(2) {       
+          background-image: url(none);    
+        }
+
+        th:nth-child(3) {       
+          background-image: url(none);
+          width: 1%;
+             
+        }
+
+        th:nth-child(4) {       
+          background-image: url(none);
+          width: 1%;     
+        }
+
+        th:nth-child(5) {       
+          background-image: url(none);
+          width: 1%;     
+        }
+
+        th:nth-child(6) {       
+          background-image: url(none);
+          width: 1%;      
+        }
+
+        td{
+          border-radius: 2px;
+        }
+        /* COLUNA N° TD*/
+        td:nth-child(1){
+          font-size: 15px;
+          width: -10px;
+          margin: 0;
+          
+        }
+        /*COLUNA CARTA TD */
+        td:nth-child(2){
+          font-size: 12px;
+          width: 0;
+          font-weight: 700;
+         
+        }
+        /*COLUNA ATK TD */
+        td:nth-child(3){
+          font-size: 12px;
+          width: 0;
+          font-weight: 700;
+        }
+        /*COLUNA DFS TD */
+        td:nth-child(4){
+          font-size: 12px;
+          width: 0;
+          font-weight: 700;        
+        }
+        /*COLUNA PASS TD */
+        td:nth-child(5){
+          font-size: 12px;
+          width: 0;
+          font-weight: 700;
+        }
+        /*COLUNA STAR TD */
+        td:nth-child(6){
+          font-size: 12px;
+          width: 0;
+          font-weight: 700;
+        }     
+  }
+
+}

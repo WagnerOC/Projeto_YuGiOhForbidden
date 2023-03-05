@@ -1,9 +1,9 @@
 
 body{
   margin-top: 0;
-  margin-left: 15%;
-  margin-right: 15%;
-  background-color: black;
+  margin-left: 2%;
+  margin-right: 2%;
+  background: black;
 }
 
 html{
@@ -36,4 +36,9 @@ iframe{
 /* Cards ToolTip | Passando o mouse sobre a carta*/
 @import './722Cards_tooltip_.scss';
 
+@import './variaveis_pg_tb_';
 
+@media screen and (min-width: 500px) and (max-width: 1262px) {  
+        
+
+}

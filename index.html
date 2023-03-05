@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <title>Yu-Gi-Oh! Forbidden Memories!</title>
 
-    <link rel="stylesheet" href="/Styles/index.css" />
+    <link rel="stylesheet" href="./Styles/index.css" />
 
-    <link rel="icon" href="/imgs/blue-eyes.png">
+    <link rel="icon" href="./imgs/blue-eyes.png">
 
     <link href="https://fonts.googleapis.com/css2?family=
                 Anton&family=Bebas+Neue&family=Edu+VIC+WA+NT+Beginner:
@@ -19,11 +19,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Oi&family=Tilt+Prism&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Fredoka+One&family=Frijole&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Fredoka+One&family=Frijole&family=Phudu:wght@500&display=swap" rel="stylesheet">
-    <script src="/Styles/index.js"></script>
+    <script src="./Styles/index.js"></script>
   </head>
   
   <!-- PROJETO 3 PERIODO ENG SOFTWARE-->
   <body>
+<div class= "ResponsiveAllMargin">
     <!-- Cabeçalho -->
     <div class="header">
       <img src="/imgs/yu-gioh_logo.png" alt="Yu-Gi-Oh!">
@@ -31,7 +32,14 @@
     </div>
     <!-- Menu Lateral Esquerdo-->
     <div class="content_lateral_esq">
+
       <div class="menu_esq">
+        <div class="grid_img_latEsq">
+          <img class="psOne" src="/imgs/Psone.png" alt="Play One">
+          <img class="logo_yu_mScreen" src="/imgs/yu_gi-oh_media_screen_logo.png" alt="LOGO">
+          <img class="logo_yu_mScreen cd_width" src="/imgs/cd_yu_psone.png" alt="CD_YU-GI-OH!"> 
+        </div>
+      <!--Somente media sc 0 - 719-->
         <ul>
           <li><a href="#">Personagens</a></li>
           <li><a href="#">Todas as 722 Cartas</a></li>
@@ -411,7 +419,12 @@
         <!-- Battle Ox -->
         <tr>
           <td>026</td>
-          <td>Battle Ox</td>
+          <td>
+            <a class="tooltip">
+              Battle Ox
+              <span class="card--BattleOx"></span>
+            </a>
+          </td>
           <td>1700</td>
           <td>1000</td>
           <td>05053103</td>
@@ -420,7 +433,12 @@
         <!-- Beaver Warrior -->
         <tr>
           <td>027</td>
-          <td>Beaver Warrior</td>
+          <td>
+            <a class="tooltip">
+              Beaver Warrior
+              <span class="card--BeaverWarrior"></span>
+            </a>
+          </td>
           <td>1200</td>
           <td>1500</td>
           <td>32452818</td>
@@ -429,7 +447,12 @@
         <!-- Rock Ogre Grotto #1 -->
         <tr>
           <td>028</td>
-          <td>Rock Ogre Grotto #1</td>
+          <td>
+            <a class="tooltip">
+              Rock Ogre Grotto #1
+              <span class="card--RockOgreGrotto_1"></span>
+            </a>
+          </td>
           <td>800</td>
           <td>1200</td>
           <td>68846917</td>
@@ -438,7 +461,12 @@
         <!-- Mountain Warrior -->
         <tr>
           <td>029</td>
-          <td>Mountain Warrior</td>
+          <td>
+            <a class="tooltip">
+              Mountain Warrior
+              <span class="card--MountainWarrior"></span>
+            </a>
+          </td>
           <td>600</td>
           <td>1000</td>
           <td>04931562</td>
@@ -447,7 +475,12 @@
         <!-- Zombie Warrior -->
         <tr>
           <td>030</td>
-          <td>Zombie Warrior</td>
+          <td>
+            <a class="tooltip">
+              Zombie Warrior
+              <span class="card--ZombieWarrior"></span>
+            </a>
+          </td>
           <td>1200</td>
           <td>900</td>
           <td>31339260</td>
@@ -456,7 +489,12 @@
         <!-- Koumori Dragon -->
         <tr>
           <td>031</td>
-          <td>Koumori Dragon</td>
+          <td>
+            <a class="tooltip">
+              Koumori Dragon
+              <span class="card--KoumoriDragon"></span>
+            </a>
+          </td>
           <td>1500</td>
           <td>1200</td>
           <td>67724379</td>
@@ -465,7 +503,12 @@
         <!-- Two-headed King Rex -->
         <tr>
           <td>032</td>
-          <td>Two-headed King Rex</td>
+          <td>
+            <a class="tooltip">
+              Two-headed King Rex
+              <span class="card--Two-headedKingRex"></span>
+            </a>
+          </td>
           <td>1600</td>
           <td>1200</td>
           <td>94119974</td>
@@ -474,7 +517,12 @@
         <!-- Judge Man -->
         <tr>
           <td>033</td>
-          <td>Judge Man</td>
+          <td>
+            <a class="tooltip">
+              Judge Man
+              <span class="card--JudgeMan"></span>
+            </a>
+          </td>  
           <td>2200</td>
           <td>1500</td>
           <td>30113682</td>
@@ -483,7 +531,12 @@
         <!-- Saggi the Dark Clown -->
         <tr>
           <td>034</td>
-          <td>Saggi the Dark Clown</td>
+          <td>
+            <a class="tooltip">
+              Saggi the Dark Clown
+              <span class="card--SaggitheDarkClown"></span>
+            </a>
+          </td>
           <td>600</td>
           <td>1500</td>
           <td>66602787</td>
@@ -508,7 +561,7 @@
           <td>
             <a class="tooltip">
             The Snake Hair
-              <span class="card--mysticalElf"></span>
+              <span class="card--TheSnakeHair"></span>
             </a>
           </td>
           <td>1500</td>
@@ -6704,7 +6757,8 @@
 
       </table>
     </div>
-  </div>  
+  </div>
+</div>  
 
   </body>
 </html>
