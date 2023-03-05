@@ -73,7 +73,7 @@ iframe {
     grid-auto-flow: column;
     padding: 0px 20px 10px 20px;
     border-radius: 5px;
-    width: 81%;
+    width: 58%;
   }
   .header a {
     color: whitesmoke;
@@ -95,7 +95,7 @@ iframe {
     background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
     padding: 0px 20px 10px 20px;
     border-radius: 5px;
-    width: 87%;
+    width: 57%;
   }
   .header a {
     color: whitesmoke;
@@ -741,11 +741,11 @@ iframe {
   padding: 0;
 }
 
-@media screen and (min-width: 701px) and (max-width: 1262px) {
+@media screen and (min-width: 901px) and (max-width: 1262px) {
   .content_lateral_esq {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 62%;
     position: sticky;
     top: 0;
     border-radius: 5px;
@@ -758,7 +758,7 @@ iframe {
     font-size: 16px;
     font-weight: 400;
     position: sticky;
-    top: 57px;
+    top: 49px;
     padding: 10px 5px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -811,7 +811,7 @@ iframe {
   .content_lateral_esq .menu_esq {
     background-color: rgb(151, 151, 172);
     height: 100%;
-    width: 91%;
+    width: 77%;
     margin-left: 12%;
     margin-top: 50px;
     font-family: "Fredoka One", cursive;
