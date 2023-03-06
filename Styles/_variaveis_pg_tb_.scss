@@ -18,7 +18,7 @@ $color_header:whitesmoke;
 $content_bkgr_co_TB:linear-gradient(to top, #491636 0%, #210d3b 100%);
 
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
-$cabecalho_tb_bckg_co:rgb(134, 104, 59);
+$cabecalho_tb_bckg_co:rgb(29, 27, 24);
 $cor_text_cab_tb:rgb(199, 202, 36);
 $color_cab_tb_N:mediumseagreen;
 
@@ -64,6 +64,12 @@ $key_hover_color_ritualCards_100pct:rgb(47, 25, 170);
 /* Content Menu Esquerdo | menu li a */
 $color_menu_esq_a: gold;
 $color_menu_esq_a_hover:rgb(212, 187, 41);
+
+$bckg_color_menu_esq:rgba(0, 0, 0, 0.808); 
+$bckg_color_menu_esq_0_900:rgba(0, 0, 0, 0.808);           /* Media screen de 0 - 900    */
+$bckg_color_menu_esq_901_1083:rgba(0, 0, 0, 0.808);        /* Media screen de 901 - 1083 */
+$bckg_color_menu_esq_901_1262:rgba(0, 0, 0, 0.808);        /* Media screen de 901 - 1262 */
+$bckg_color_menu_esq_901_1262:rgba(0, 0, 0, 0.808);        /* Media screen de 1263 - 11582 */
 
 
 /* MEDIA SCREEN */

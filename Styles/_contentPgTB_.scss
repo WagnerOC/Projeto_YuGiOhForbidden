@@ -12,12 +12,14 @@
     .ResponsiveAllMargin{
       float: left;
     }
-
-    
+   
     /* Tabela */
     table{
       margin-top: 0px;
       width: 100%;
+      background-color: rgba(52, 80, 80, 0.719);
+      border-radius: 5px;
+      box-shadow: 1px 3px 20px 1px purple;
     }
 
     /* N CARTA ATK DFS PASS STAR */
@@ -27,6 +29,7 @@
       color: $cor_text_cab_tb;
       font-family: "Bebas Neue", cursive;
       font-size: 24px;
+      text-align: center;
       padding: 12px;
       border-radius: 5px;
       position: sticky;
@@ -76,16 +79,24 @@
       background-position-y: 56%;
       background-position-x: 98%;
     }
+      /* Todas as Linhas*/
+      tr{
+        line-height: 22px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        text-align: left;
+      }
 
         /* Todas as Colunas */
         td {
           padding: 9px;
           margin-left: 15px;
           background-image: $bckg_color_table_td;
+          border-radius: 2px;
         }
         
           /* Primeira Coluna */
-          td:nth-child(6n + 1) {
+          td:nth-child(1) {
             background: $bckg_color_first_td;
             background-blend-mode: multiply, multiply;
             font-family: "Phudu", cursive;
@@ -95,8 +106,8 @@
             width: 100px;
           }
           /* Segunda Coluna  */
-          td:nth-child(6n + 2) {
-            font-size: 18px;
+          td:nth-child(2) {
+            font-size: 17px;
             font-family: "Frijole", cursive;
             font-weight: 100;
             width: 300px;
@@ -128,15 +139,28 @@
           }
           
           /* Font-family, Color ATK DEF PASS */
-          td:nth-child(1n + 3) {
+          td:nth-child(3) {
             font-family: "Yuji Mai", serif;
             color: $color_atk_dfs_td;
             font-weight: 700;
             font-size: 20px;
           }
+
+          /* Font-family, Color ATK DEF PASS */
+          td:nth-child(4) {
+            font-family: "Yuji Mai", serif;
+            color: $color_atk_dfs_td;
+            font-weight: 700;
+            font-size: 20px;
+          }
+
+
           
           /*COLUNA do PASSWORD*/
           td:nth-child(5) {
+            font-family: "Yuji Mai", serif;
+            font-weight: 700;
+            font-size: 20px;
             color: $color_password_td;
           }
           
@@ -268,6 +292,8 @@
       table{
         margin-top: 0px;
         width: 100%;
+        background-color: rgba(52, 80, 80, 0.719);
+        border-radius: 5px;
       }
   
       /* N CARTA ATK DFS PASS STAR */
@@ -285,6 +311,7 @@
       /* Cabeçalho do N° */
       th:nth-child(1) {
         color: $color_cab_tb_N;
+        text-align: center;
       }
       /*Cabeçalho CARTA*/
       th:nth-child(2) {
@@ -293,6 +320,7 @@
         background-repeat: no-repeat;
         background-position-y: 52%;
         background-position-x: 65%;
+        text-align: center;
       }
       /*Cabeçalho ATK*/
       th:nth-child(3) {
@@ -301,6 +329,7 @@
         background-repeat: no-repeat;
         background-position-y: 56%;
         background-position-x: 93%;
+        text-align: center;
       }
       /*Cabeçalho DFS*/
       th:nth-child(4) {
@@ -309,6 +338,7 @@
         background-repeat: no-repeat;
         background-position-y: 56%;
         background-position-x: 93%;
+        text-align: center;
       }
       /*Cabeçalho PASS*/
       th:nth-child(5) {
@@ -317,6 +347,7 @@
         background-repeat: no-repeat;
         background-position-y: 60%;
         background-position-x: 83%;
+        text-align: center;
       }
       /* Cabeçalho da Starchips */
       th:nth-child(6) {
@@ -325,6 +356,7 @@
         background-repeat: no-repeat;
         background-position-y: 56%;
         background-position-x: 85%;
+        text-align: center;
       }
   
           /* Todas as Colunas */
@@ -392,6 +424,9 @@
       table{
         font-size: 10px;
         margin: auto;
+        width: 100%;
+        background-color: rgba(52, 80, 80, 0.719);
+        border-radius: 5px;
       }
 
       /* N CARTA ATK DFS PASS STAR */
@@ -404,27 +439,33 @@
       th:nth-child(1) {       
         background-image: url(none);
         width: 0;
+        text-align: center;
       }
 
       /*Cabeçalho CARTA*/
       th:nth-child(2) {       
         background-image: url(none);
+        text-align: center;
       }
       /*Cabeçalho ATK*/
       th:nth-child(3) { 
         background-image: url(none);
+        text-align: center;
       }
       /*Cabeçalho DFS*/
       th:nth-child(4) {
         background-image: url(none);
+        text-align: center;
       }
       /*Cabeçalho PASS*/
       th:nth-child(5) {
-        background-image: url(none);      
+        background-image: url(none);  
+        text-align: center;    
       }
       /* Cabeçalho da Starchips */
       th:nth-child(6) {  
         background-image: url(none);
+        text-align: center;
       }
 
         /*COLUNA da STARCHIPS*/
@@ -438,7 +479,7 @@
 /* RESPONSIVIDADE MEDIA SCREEN */
 @media screen and (min-width: 0px) and (max-width: 900px){
     body{
-      margin-left: 4%;
+      margin-left: 1%;
       margin-right: 1%;
       background-image: url(/imgs/exodia.jpg);
     }
@@ -454,7 +495,9 @@
         /* Tabela */
         table{
           margin:auto ;
-          width: 0%;
+          width: 100%;
+          background-color: rgba(52, 80, 80, 0.719);
+          border-radius: 5px;
         }
 
         /* N CARTA ATK DFS PASS STAR */
@@ -471,31 +514,37 @@
         th:nth-child(1) {       
           background-image: url(none);
           padding: 20px;   
+          text-align: center;
         }
 
         th:nth-child(2) {       
-          background-image: url(none);    
+          background-image: url(none);
+          text-align: center;    
         }
 
         th:nth-child(3) {       
           background-image: url(none);
           width: 1%;
+          text-align: center;
              
         }
 
         th:nth-child(4) {       
           background-image: url(none);
-          width: 1%;     
+          width: 1%;   
+          text-align: center;  
         }
 
         th:nth-child(5) {       
           background-image: url(none);
-          width: 1%;     
+          width: 1%;    
+          text-align: center; 
         }
 
         th:nth-child(6) {       
           background-image: url(none);
-          width: 1%;      
+          width: 1%;   
+          text-align: center;   
         }
 
         td{
@@ -510,32 +559,32 @@
         }
         /*COLUNA CARTA TD */
         td:nth-child(2){
-          font-size: 12px;
+          font-size: 14px;
           width: 0;
           font-weight: 700;
          
         }
         /*COLUNA ATK TD */
         td:nth-child(3){
-          font-size: 12px;
+          font-size: 15px;
           width: 0;
           font-weight: 700;
         }
         /*COLUNA DFS TD */
         td:nth-child(4){
-          font-size: 12px;
+          font-size: 15px;
           width: 0;
           font-weight: 700;        
         }
         /*COLUNA PASS TD */
         td:nth-child(5){
-          font-size: 12px;
+          font-size: 15px;
           width: 0;
           font-weight: 700;
         }
         /*COLUNA STAR TD */
         td:nth-child(6){
-          font-size: 12px;
+          font-size: 15px;
           width: 0;
           font-weight: 700;
         }     
