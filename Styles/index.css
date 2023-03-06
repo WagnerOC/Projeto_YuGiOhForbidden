@@ -54,6 +54,7 @@ iframe {
   grid-auto-flow: column;
   padding: 0px 20px 10px 20px;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .header a {
@@ -70,6 +71,139 @@ iframe {
   width: 210px;
 }
 
+/*UL Header*/
+.ul_header {
+  margin: 11px 0 0 0;
+  margin-left: 800px;
+  width: 0;
+}
+
+/*Paragrafo do GITHub*/
+.paragrafoGit {
+  font-size: 16px;
+  font-family: "frijole", cursive;
+  color: rgb(11, 47, 124);
+  margin: 0 0 5px 0;
+}
+.paragrafoGit:hover {
+  color: rgba(17, 107, 70, 0.897);
+  transition: 500ms;
+}
+
+/* Passando o mouse sobre o Paragrafo do GitHub*/
+/* GitHub */
+a.to_tip:hover span.img_git {
+  background-image: url("/imgs/github_img.pgn.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+}
+
+/*E-mail*/
+a.to_tip:hover span.img_email {
+  background-image: url("/imgs/send_me_email.png.crdownload");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+}
+
+/*Whattsapp*/
+a.to_tip:hover span.img_whattsap {
+  background-image: url("/imgs/whattsap_img.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+}
+
+a.to_tip {
+  outline: none;
+}
+
+a.to_tip strong {
+  line-height: 10px;
+}
+
+a.to_tip:hover {
+  text-decoration: none;
+}
+
+a.to_tip span {
+  border-radius: 1px;
+  box-shadow: 0px 0px 4px 2px #666;
+  display: none;
+  margin-left: 120px;
+  margin-top: 45px;
+  padding: 2px 2px;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+}
+
+a.to_tip span.img_email {
+  border-radius: 1px;
+  box-shadow: 0px 0px 4px 2px #666;
+  display: none;
+  margin-left: 120px;
+  margin-top: -35px;
+  padding: 2px 2px;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+}
+
+a.to_tip span.img_whattsap {
+  border-radius: 1px;
+  box-shadow: 0px 0px 4px 2px #666;
+  display: none;
+  margin-left: 120px;
+  margin-top: 20px;
+  padding: 2px 2px;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+}
+
+.callout {
+  border: 0;
+  left: 120px;
+  position: absolute;
+  top: -14px;
+  z-index: 20;
+}
+
+body:hover {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1369px) and (max-width: 1591px) {
+  .ul_header {
+    margin: 11px 0 0 0;
+    padding: 0px;
+    margin-left: 600px;
+    width: 0;
+  }
+}
+@media screen and (min-width: 1263px) and (max-width: 1370px) {
+  .ul_header {
+    margin: 11px 0 0 0;
+    padding: 0px;
+    margin-left: 600px;
+    width: 0;
+  }
+}
 /* RESPONSIVIDADE MEDIA SCREEN */
 @media screen and (min-width: 1085.5px) and (max-width: 1262px) {
   .header {
@@ -93,6 +227,12 @@ iframe {
   .header img {
     width: 210px;
   }
+  .ul_header {
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+    margin-left: 440px;
+    width: 0;
+  }
 }
 /* RESPONSIVIDADE MEDIA SCREEN */
 @media screen and (min-width: 901px) and (max-width: 1085px) {
@@ -114,6 +254,12 @@ iframe {
   }
   .header img {
     width: 200px;
+  }
+  .ul_header {
+    margin: -20px 0 0 0;
+    padding: 35px;
+    margin-left: 150px;
+    width: 0;
   }
 }
 /* RESPONSIVIDADE MEDIA SCREEN */
