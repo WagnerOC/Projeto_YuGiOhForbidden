@@ -30,7 +30,7 @@
     grid-auto-flow: column;
     padding: 0px 20px 10px 20px;
     border-radius: 5px;
-    width: 58%;
+    width: 96%;
   }
         .header a{
           color: $color_header;
@@ -50,12 +50,10 @@
   @media screen and (min-width: 901px) and (max-width: 1085px){
     .header {
       height: 100px;
-      background-image: $backg_color_header;
-      
-      
+      background-image: $backg_color_header; 
       padding: 0px 20px 10px 20px;
       border-radius: 5px;
-      width: 57%;
+      width: 600px;
     }
           .header a{
             color: $color_header;

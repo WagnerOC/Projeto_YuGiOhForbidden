@@ -1,9 +1,15 @@
 
 body{
+  height: 100vh;
   margin-top: 0;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left:10%;
+  margin-right:10%;
   background: black;
+  background-image: url(/imgs/exodia.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 html{
@@ -23,6 +29,8 @@ iframe{
   width: 90%;
 }
 
+
+
 /* Header */
 @import './headerPageTB_.scss';
 
@@ -37,8 +45,3 @@ iframe{
 @import './722Cards_tooltip_.scss';
 
 @import './variaveis_pg_tb_';
-
-@media screen and (min-width: 500px) and (max-width: 1262px) {  
-        
-
-}

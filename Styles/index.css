@@ -1,9 +1,15 @@
 @charset "UTF-8";
 body {
+  height: 100vh;
   margin-top: 0;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
   background: black;
+  background-image: url(/imgs/exodia.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 html {
@@ -73,7 +79,7 @@ iframe {
     grid-auto-flow: column;
     padding: 0px 20px 10px 20px;
     border-radius: 5px;
-    width: 58%;
+    width: 96%;
   }
   .header a {
     color: whitesmoke;
@@ -95,7 +101,7 @@ iframe {
     background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
     padding: 0px 20px 10px 20px;
     border-radius: 5px;
-    width: 57%;
+    width: 600px;
   }
   .header a {
     color: whitesmoke;
@@ -137,11 +143,9 @@ iframe {
 /* importando variaveis */
 /* Content da tabela */
 .content_tb {
-  max-width: 70%;
-  background-image: linear-gradient(to top, #491636 0%, #210d3b 100%);
-  margin: 10px 0 0 0;
+  max-width: 60%;
+  margin: auto;
   padding: 0px;
-  box-shadow: 0px 2px 8px 0px rgba(153, 0, 255, 0.507);
   /* Tabela */
   /* N CARTA ATK DFS PASS STAR */
   /* Cabeçalho do N° */
@@ -163,6 +167,9 @@ iframe {
   /*Animação TRAP CARDS */
   /*RITUAL CARDS*/
   /*Animação Ritual Cards*/
+}
+.content_tb .ResponsiveAllMargin {
+  float: left;
 }
 .content_tb table {
   margin-top: 0px;
@@ -380,12 +387,7 @@ iframe {
     background-image: linear-gradient(to top, #491636 0%, #210d3b 100%);
     margin: 10px 0 0 0;
     padding: 0px;
-    box-shadow: 0px 2px 8px 0px rgba(153, 0, 255, 0.507);
     border-radius: 10px;
-    animation-name: content_tb;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-delay: 0s;
     /* Tabela */
     /* N CARTA ATK DFS PASS STAR */
     /* Cabeçalho do N° */
@@ -401,25 +403,6 @@ iframe {
     /* Coluna DEF  */
     /*COLUNA do PASSWORD*/
     /*COLUNA da STARCHIPS*/
-  }
-  @keyframes content_tb {
-    0% {
-      box-shadow: 0px 2px 2px 1px rgba(153, 0, 255, 0.507);
-      background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-    }
-    25% {
-      box-shadow: 0px 2px 2px 1px rgba(255, 153, 0, 0.507);
-    }
-    50% {
-      box-shadow: 0px 2px 2px 1px rgba(0, 102, 255, 0.507);
-    }
-    75% {
-      box-shadow: 0px 2px 2px 1px rgba(0, 255, 34, 0.507);
-    }
-    100% {
-      box-shadow: 0px 2px 2px 1px rgba(255, 0, 179, 0.507);
-      background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-    }
   }
   .content_tb table {
     margin-top: 0px;
@@ -518,11 +501,6 @@ iframe {
     margin-left: 1%;
     margin-right: 5%;
     padding: 0px;
-    box-shadow: 0px 2px 8px 0px rgba(153, 0, 255, 0.507);
-    animation-name: content_tb;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-delay: 0s;
     /* Tabela */
     /* N CARTA ATK DFS PASS STAR */
     /*Cabeçalho CARTA*/
@@ -531,25 +509,6 @@ iframe {
     /*Cabeçalho PASS*/
     /* Cabeçalho da Starchips */
     /*COLUNA da STARCHIPS*/
-  }
-  @keyframes content_tb {
-    0% {
-      box-shadow: 0px 2px 2px 1px rgba(153, 0, 255, 0.507);
-      background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-    }
-    25% {
-      box-shadow: 0px 2px 2px 1px rgba(255, 153, 0, 0.507);
-    }
-    50% {
-      box-shadow: 0px 2px 2px 1px rgba(0, 102, 255, 0.507);
-    }
-    75% {
-      box-shadow: 0px 2px 2px 1px rgba(0, 255, 34, 0.507);
-    }
-    100% {
-      box-shadow: 0px 2px 2px 1px rgba(255, 0, 179, 0.507);
-      background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-    }
   }
   .content_tb table {
     font-size: 10px;
@@ -591,12 +550,11 @@ iframe {
     background-image: url(/imgs/exodia.jpg);
   }
   .content_tb {
-    max-width: 90%;
+    max-width: 100%;
     margin: 20px 0 0 0;
     margin-left: 1%;
     margin-right: 5%;
     padding: 0px;
-    box-shadow: 0px 2px 8px 0px rgba(153, 0, 255, 0.507);
     /* Tabela */
     /* N CARTA ATK DFS PASS STAR */
     /* COLUNA N ° CABEÇALHO*/
@@ -700,9 +658,10 @@ iframe {
 .content_lateral_esq {
   display: grid;
   grid-auto-flow: column;
-  height: 100%;
   position: sticky;
-  top: 0;
+  top: 55px;
+  margin: auto;
+  width: 100%;
 }
 .content_lateral_esq .logo_yu_mScreen {
   display: none;
@@ -711,16 +670,22 @@ iframe {
   display: none;
 }
 .content_lateral_esq .menu_esq {
-  margin-top: 0px;
-  height: 325px;
+  margin: auto;
+  background-color: rgb(148, 148, 196);
+  height: 100%;
   font-family: "Fredoka One", cursive;
-  font-size: 26px;
+  font-size: 16px;
   font-weight: 400;
   position: sticky;
-  top: 30px;
-  padding: 0px 15px 0 10px;
+  top: 0px;
+  padding: 10px 5px;
   box-sizing: border-box;
-  width: 340px;
+  width: 60%;
+  border-radius: 10px;
+}
+.content_lateral_esq .menu_esq_centralizando {
+  margin: auto;
+  border-radius: 10px;
 }
 .content_lateral_esq .menu_esq ul li a {
   color: gold;
@@ -737,17 +702,45 @@ iframe {
   line-height: 40px;
 }
 .content_lateral_esq .menu_esq ul li {
-  margin: 0;
+  margin: 5px 0 0 25px;
   padding: 0;
+  float: left;
+  background-color: #359;
+  padding: 6px;
+  border-radius: 8px;
 }
 
+@media screen and (min-width: 1263px) and (max-width: 1582px) {
+  .content_lateral_esq {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    margin-left: 303px;
+    position: sticky;
+    top: 45px;
+    border-radius: 5px;
+  }
+  .content_lateral_esq .menu_esq {
+    margin-top: 10px;
+    background-color: rgb(148, 148, 196);
+    font-family: "Fredoka One", cursive;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 0 4px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+  }
+}
 @media screen and (min-width: 901px) and (max-width: 1262px) {
   .content_lateral_esq {
     display: flex;
     flex-direction: column;
-    width: 62%;
+    width: 100%;
+    margin-left: 0px;
     position: sticky;
-    top: 0;
+    top: 39px;
     border-radius: 5px;
   }
   .content_lateral_esq .menu_esq {
@@ -757,8 +750,6 @@ iframe {
     font-family: "Fredoka One", cursive;
     font-size: 16px;
     font-weight: 400;
-    position: sticky;
-    top: 49px;
     padding: 10px 5px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -789,11 +780,33 @@ iframe {
     margin: 0;
     padding: 0 8px 0 0;
     display: inline-block;
+    background-color: transparent;
   }
   .content_lateral_esq .menu_esq ul li:hover {
     box-shadow: 3px 1px 8px purple;
     border-radius: 8px;
     transition: 500ms;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1083px) {
+  .content_lateral_esq {
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    position: sticky;
+    top: -7px;
+  }
+  .content_lateral_esq .menu_esq {
+    width: 100%;
+    margin-left: 12%;
+    margin-top: 50px;
+    font-family: "Fredoka One", cursive;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 2px 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253);
+    text-align: center;
   }
 }
 /* RESPONSIVIDADE MEDIA SCREEN  */
@@ -804,6 +817,9 @@ iframe {
     width: 88%;
     border-radius: 10px;
     background-color: transparent;
+    position: sticky;
+    top: 12px;
+    height: 100%;
     /* DIV ONDE ESTAO AS IMGS */
     /* LOGO YU GI OH */
     /* CD YU GI OH */
@@ -811,14 +827,12 @@ iframe {
   .content_lateral_esq .menu_esq {
     background-color: rgb(151, 151, 172);
     height: 100%;
-    width: 77%;
-    margin-left: 12%;
+    width: 68%;
+    margin-left: 18%;
     margin-top: 50px;
     font-family: "Fredoka One", cursive;
     font-size: 19px;
     font-weight: 400;
-    position: sticky;
-    top: 63px;
     padding: 2px 0px;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253);
@@ -838,13 +852,16 @@ iframe {
     border-radius: 5px;
   }
   .content_lateral_esq .psOne {
-    width: 150px;
+    width: 90px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 36px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
   }
   .content_lateral_esq .cd_width {
     display: inline-block;
-    width: 60px;
+    width: 40px;
+    margin-top: 31px;
   }
   .content_lateral_esq .menu_esq ul li a {
     color: gold;
@@ -867,7 +884,7 @@ iframe {
     float: left;
   }
   .content_lateral_esq .menu_esq ul li {
-    margin: 0;
+    margin: 0 0 5px 5px;
     padding: 0 8px 0 0;
     display: inline-block;
   }
