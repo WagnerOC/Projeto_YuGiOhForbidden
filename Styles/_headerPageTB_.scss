@@ -54,7 +54,7 @@
       }
       /*E-mail*/
       a.to_tip:hover span.img_email{
-        background-image: url("/imgs/send_me_email.png.crdownload");
+        background-image: url("/imgs/email_logo.png");
         background-position: center center;
         background-size: contain; /* <------ */
         background-repeat: no-repeat;
@@ -62,6 +62,7 @@
         color: #eee;
         display: inline;
         position: absolute;
+        height: 50px;
        
       }
       /*Whattsapp*/

@@ -24,16 +24,11 @@ a {
   text-decoration: none;
 }
 
-iframe {
-  margin-top: 100%;
-  width: 90%;
-}
-
 /* Header */
 /* Content | Table */
 /*BACKG BODY*/
 /*HEADER*/
-/*BACKG HEADER | COLOR HEADER */
+/*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
 /*TABLE*/
 /*CONTENT TABLE*/
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
@@ -109,7 +104,7 @@ a.to_tip:hover span.img_git {
 
 /*E-mail*/
 a.to_tip:hover span.img_email {
-  background-image: url("/imgs/send_me_email.png.crdownload");
+  background-image: url("/imgs/email_logo.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -117,6 +112,7 @@ a.to_tip:hover span.img_email {
   color: #eee;
   display: inline;
   position: absolute;
+  height: 50px;
 }
 
 /*Whattsapp*/
@@ -276,7 +272,7 @@ body:hover {
 /* Content da Tabela */ /* Content | Table */
 /*BACKG BODY*/
 /*HEADER*/
-/*BACKG HEADER | COLOR HEADER */
+/*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
 /*TABLE*/
 /*CONTENT TABLE*/
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
@@ -332,7 +328,7 @@ body:hover {
   width: 100%;
   background-color: rgba(52, 80, 80, 0.719);
   border-radius: 5px;
-  box-shadow: 1px 3px 20px 1px purple;
+  box-shadow: 0px 0px 20px 2px rgb(0, 41, 128);
 }
 .content_tb th {
   background-color: rgb(29, 27, 24);
@@ -444,17 +440,19 @@ body:hover {
   color: rgb(187, 12, 12);
   font-weight: 700;
   font-size: 20px;
+  text-align: center;
 }
 .content_tb td:nth-child(4) {
   font-family: "Yuji Mai", serif;
   color: rgb(187, 12, 12);
   font-weight: 700;
   font-size: 20px;
+  text-align: center;
 }
 .content_tb td:nth-child(5) {
   font-family: "Yuji Mai", serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(36, 28, 151);
 }
 .content_tb td:nth-child(6) {
@@ -841,7 +839,7 @@ body:hover {
 /* Content | Table */
 /*BACKG BODY*/
 /*HEADER*/
-/*BACKG HEADER | COLOR HEADER */
+/*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
 /*TABLE*/
 /*CONTENT TABLE*/
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
@@ -1134,7 +1132,7 @@ a.tooltip:hover span.card--dragaoBranco {
 
 /* 002 Mystical Elf */
 a.tooltip:hover span.card--mysticalElf {
-  background-image: url("./imgs_cards_tooltip/002_mystical_elf.png");
+  background-image: url("/imgs_cards_tooltip/002_mystical_elf.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1143,12 +1141,12 @@ a.tooltip:hover span.card--mysticalElf {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -580px;
+  margin-left: -575px;
 }
 
 /* 003 Hitotsu-me Giant */
 a.tooltip:hover span.card--Hitotsu-meGiant {
-  background-image: url("./imgs_cards_tooltip/003_Hitotsu-me_Giant.png");
+  background-image: url("/imgs_cards_tooltip/003_Hitotsu-me_Giant.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1157,12 +1155,12 @@ a.tooltip:hover span.card--Hitotsu-meGiant {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -650px;
+  margin-left: -639px;
 }
 
 /* 004 Baby Dragon */
 a.tooltip:hover span.card--babyDragon {
-  background-image: url("./imgs_cards_tooltip/004_baby_dragon.png");
+  background-image: url("/imgs_cards_tooltip/004_baby_dragon.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1171,12 +1169,12 @@ a.tooltip:hover span.card--babyDragon {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -585px;
+  margin-left: -578px;
 }
 
 /* 005 Ryu-kishin */
 a.tooltip:hover span.card--ryuKishin {
-  background-image: url("./imgs_cards_tooltip/005_Ryu-kishin.png");
+  background-image: url("/imgs_cards_tooltip/005_Ryu-kishin.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1185,12 +1183,12 @@ a.tooltip:hover span.card--ryuKishin {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -550px;
+  margin-left: -545px;
 }
 
 /* 006 Feral Imp */
 a.tooltip:hover span.card--feralImp {
-  background-image: url("./imgs_cards_tooltip/006_feral_imp.png");
+  background-image: url("/imgs_cards_tooltip/006_feral_imp.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1199,12 +1197,12 @@ a.tooltip:hover span.card--feralImp {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -540px;
+  margin-left: -535px;
 }
 
 /* 007 Winged Dragon #1 */
 a.tooltip:hover span.card--WDragon_1 {
-  background-image: url("./imgs_cards_tooltip/007_WingedDragon_1");
+  background-image: url("/imgs_cards_tooltip/007_WingedDragon_1");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1212,13 +1210,13 @@ a.tooltip:hover span.card--WDragon_1 {
   color: #eee;
   display: inline;
   position: absolute;
-  margin-top: -30px;
-  margin-left: -418px;
+  margin-top: -12px;
+  margin-left: -654px;
 }
 
 /* 008 Mushroom Man */
 a.tooltip:hover span.card--MushroomMan {
-  background-image: url("./imgs_cards_tooltip/008_MushroomMan.png");
+  background-image: url("/imgs_cards_tooltip/008_MushroomMan.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1227,12 +1225,12 @@ a.tooltip:hover span.card--MushroomMan {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -618px;
+  margin-left: -608px;
 }
 
 /* 009 Shadow Specter */
 a.tooltip:hover span.card--shadowSpecter {
-  background-image: url("./imgs_cards_tooltip/009_ShadowSpecter.png");
+  background-image: url("/imgs_cards_tooltip/009_ShadowSpecter.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1241,12 +1239,12 @@ a.tooltip:hover span.card--shadowSpecter {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -630px;
+  margin-left: -620px;
 }
 
 /* 010 Blackland Fire Dragon */
 a.tooltip:hover span.card--BlacklandFireDragon {
-  background-image: url("./imgs_cards_tooltip/010_BlacklandFireDragon.png");
+  background-image: url("/imgs_cards_tooltip/010_BlacklandFireDragon.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1260,7 +1258,7 @@ a.tooltip:hover span.card--BlacklandFireDragon {
 
 /* 011 	Sword Arm of Dragon */
 a.tooltip:hover span.card--SwordArmofDragon {
-  background-image: url("./imgs_cards_tooltip/011_SwordArmofDragon.png");
+  background-image: url("/imgs_cards_tooltip/011_SwordArmofDragon.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1274,7 +1272,7 @@ a.tooltip:hover span.card--SwordArmofDragon {
 
 /* 012 Swamp Battleguard */
 a.tooltip:hover span.card--SwampBattleguard {
-  background-image: url("./imgs_cards_tooltip/012_Swamp_Battleguard.png");
+  background-image: url("/imgs_cards_tooltip/012_Swamp_Battleguard.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1282,13 +1280,13 @@ a.tooltip:hover span.card--SwampBattleguard {
   color: #eee;
   display: inline;
   position: absolute;
-  margin-top: -32px;
-  margin-left: -575px;
+  margin-top: -10px;
+  margin-left: -675px;
 }
 
 /* 013 Tyhone */
 a.tooltip:hover span.card--Tyhone {
-  background-image: url("./imgs_cards_tooltip/013_Tyhone.png");
+  background-image: url("/imgs_cards_tooltip/013_Tyhone.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1302,7 +1300,7 @@ a.tooltip:hover span.card--Tyhone {
 
 /* 014 Battle Steer */
 a.tooltip:hover span.card--BattleSteer {
-  background-image: url("./imgs_cards_tooltip/014_BattleSteer.png");
+  background-image: url("/imgs_cards_tooltip/014_BattleSteer.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1316,7 +1314,7 @@ a.tooltip:hover span.card--BattleSteer {
 
 /* 015 Flame Swordsman */
 a.tooltip:hover span.card--Flame_Swordsman {
-  background-image: url("./imgs_cards_tooltip/015_FlameSwordsman.png");
+  background-image: url("/imgs_cards_tooltip/015_FlameSwordsman.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1330,7 +1328,7 @@ a.tooltip:hover span.card--Flame_Swordsman {
 
 /* 016 Time Wizard */
 a.tooltip:hover span.card--TimeWizard {
-  background-image: url("./imgs_cards_tooltip/016_TimeWizard.png");
+  background-image: url("/imgs_cards_tooltip/016_TimeWizard.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1338,13 +1336,13 @@ a.tooltip:hover span.card--TimeWizard {
   color: #eee;
   display: inline;
   position: absolute;
-  margin-top: -12px;
+  margin-top: -11px;
   margin-left: -576px;
 }
 
 /* 017 Right Leg of the Forbidden One */
 a.tooltip:hover span.card--RightLegoftheForbiddenOne {
-  background-image: url("./imgs_cards_tooltip/017_RightLegoftheForbiddenOne.png");
+  background-image: url("/imgs_cards_tooltip/017_RightLegoftheForbiddenOne.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1352,13 +1350,13 @@ a.tooltip:hover span.card--RightLegoftheForbiddenOne {
   color: #eee;
   display: inline;
   position: absolute;
-  margin-top: -12px;
+  margin-top: -31px;
   margin-left: -616px;
 }
 
 /* 018 Left Leg of the Forbidden One */
 a.tooltip:hover span.card--LeftLegoftheForbiddenOne {
-  background-image: url("./imgs_cards_tooltip/018_LeftLegoftheForbiddenOne.png");
+  background-image: url("/imgs_cards_tooltip/018_LeftLegoftheForbiddenOne.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1366,13 +1364,13 @@ a.tooltip:hover span.card--LeftLegoftheForbiddenOne {
   color: #eee;
   display: inline;
   position: absolute;
-  margin-top: -12px;
+  margin-top: -31px;
   margin-left: -616px;
 }
 
 /* 019 Right Arm of the Forbidden One */
 a.tooltip:hover span.card--RightArmoftheForbiddenOne {
-  background-image: url("./imgs_cards_tooltip/019_RightArmoftheForbiddenOne.png");
+  background-image: url("/imgs_cards_tooltip/019_RightArmoftheForbiddenOne.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1386,7 +1384,7 @@ a.tooltip:hover span.card--RightArmoftheForbiddenOne {
 
 /* 020 Left Arm of the Forbidden One */
 a.tooltip:hover span.card--LeftArmoftheForbiddenOne {
-  background-image: url("./imgs_cards_tooltip/020_LeftArmoftheForbiddenOne.png");
+  background-image: url("/imgs_cards_tooltip/020_LeftArmoftheForbiddenOne.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1400,7 +1398,7 @@ a.tooltip:hover span.card--LeftArmoftheForbiddenOne {
 
 /* 021 Exodia the Forbidden */
 a.tooltip:hover span.card--ExodiatheForbidden {
-  background-image: url("./imgs_cards_tooltip/021_ExodiatheForbidden.png");
+  background-image: url("/imgs_cards_tooltip/021_ExodiatheForbidden.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1414,7 +1412,7 @@ a.tooltip:hover span.card--ExodiatheForbidden {
 
 /* 022 Summoned Skull */
 a.tooltip:hover span.card--SummonedSkull {
-  background-image: url("./imgs_cards_tooltip/022_SummonedSkull.png");
+  background-image: url("/imgs_cards_tooltip/022_SummonedSkull.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1428,7 +1426,7 @@ a.tooltip:hover span.card--SummonedSkull {
 
 /* 023 The Wicked Worm Beast */
 a.tooltip:hover span.card--TheWickedWormBeast {
-  background-image: url("./imgs_cards_tooltip/023_TheWickedWormBeast.png");
+  background-image: url("/imgs_cards_tooltip/023_TheWickedWormBeast.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1442,7 +1440,7 @@ a.tooltip:hover span.card--TheWickedWormBeast {
 
 /* 024 Skull Servant */
 a.tooltip:hover span.card--SkullServant {
-  background-image: url("./imgs_cards_tooltip/024_SkullServant.png");
+  background-image: url("/imgs_cards_tooltip/024_SkullServant.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1456,7 +1454,7 @@ a.tooltip:hover span.card--SkullServant {
 
 /* 025 Horn Imp */
 a.tooltip:hover span.card--HornImp {
-  background-image: url("./imgs_cards_tooltip/025_HornImp.png");
+  background-image: url("/imgs_cards_tooltip/025_HornImp.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1470,7 +1468,7 @@ a.tooltip:hover span.card--HornImp {
 
 /* 026 Battle Ox */
 a.tooltip:hover span.card--BattleOx {
-  background-image: url("./imgs_cards_tooltip/026_BattleOx.png");
+  background-image: url("/imgs_cards_tooltip/026_BattleOx.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1484,7 +1482,7 @@ a.tooltip:hover span.card--BattleOx {
 
 /* 027 Beaver Warrior */
 a.tooltip:hover span.card--BeaverWarrior {
-  background-image: url("./imgs_cards_tooltip/027_BeaverWarrior.png");
+  background-image: url("/imgs_cards_tooltip/027_BeaverWarrior.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1498,7 +1496,7 @@ a.tooltip:hover span.card--BeaverWarrior {
 
 /* 028 Rock Ogre Grotto #1 */
 a.tooltip:hover span.card--RockOgreGrotto_1 {
-  background-image: url("./imgs_cards_tooltip/028_RockOgreGrotto1.png");
+  background-image: url("/imgs_cards_tooltip/028_RockOgreGrotto1.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1507,26 +1505,12 @@ a.tooltip:hover span.card--RockOgreGrotto_1 {
   display: inline;
   position: absolute;
   margin-top: -30px;
-  margin-left: -532px;
+  margin-left: -420px;
 }
 
 /* 029 Mountain Warrior */
 a.tooltip:hover span.card--MountainWarrior {
-  background-image: url("./imgs_cards_tooltip/029_MountainWarrior.png");
-  background-position: center center;
-  background-size: contain; /* <------ */
-  background-repeat: no-repeat;
-  border: 2px solid #fff;
-  color: #eee;
-  display: inline;
-  position: absolute;
-  margin-top: -30px;
-  margin-left: -517px;
-}
-
-/* 030 Zombie Warrior */
-a.tooltip:hover span.card--ZombieWarrior {
-  background-image: url("./imgs_cards_tooltip/030_ZombieWarrior.png");
+  background-image: url("/imgs_cards_tooltip/029_MountainWarrior.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1535,12 +1519,26 @@ a.tooltip:hover span.card--ZombieWarrior {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -635px;
+  margin-left: -665px;
+}
+
+/* 030 Zombie Warrior */
+a.tooltip:hover span.card--ZombieWarrior {
+  background-image: url("/imgs_cards_tooltip/030_ZombieWarrior.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -628px;
 }
 
 /* 031 Koumori Dragon */
 a.tooltip:hover span.card--KoumoriDragon {
-  background-image: url("./imgs_cards_tooltip/031_KoumoriDragon.png");
+  background-image: url("/imgs_cards_tooltip/031_KoumoriDragon.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1554,7 +1552,7 @@ a.tooltip:hover span.card--KoumoriDragon {
 
 /* 032 Two-headed King Rex */
 a.tooltip:hover span.card--Two-headedKingRex {
-  background-image: url("./imgs_cards_tooltip/032_Two-headedKingRex.png");
+  background-image: url("/imgs_cards_tooltip/032_Two-headedKingRex.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1563,12 +1561,12 @@ a.tooltip:hover span.card--Two-headedKingRex {
   display: inline;
   position: absolute;
   margin-top: -30px;
-  margin-left: -440px;
+  margin-left: -443px;
 }
 
 /* 033 Judge Man */
 a.tooltip:hover span.card--JudgeMan {
-  background-image: url("./imgs_cards_tooltip/033_JudgeMan.png");
+  background-image: url("/imgs_cards_tooltip/033_JudgeMan.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1582,7 +1580,7 @@ a.tooltip:hover span.card--JudgeMan {
 
 /* 034 Saggi the Dark Clown */
 a.tooltip:hover span.card--SaggitheDarkClown {
-  background-image: url("./imgs_cards_tooltip/034_SaggitheDarkClown.png");
+  background-image: url("/imgs_cards_tooltip/034_SaggitheDarkClown.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1610,7 +1608,693 @@ a.tooltip:hover span.card--magoNegro {
 
 /*036 The Snake Hair */
 a.tooltip:hover span.card--TheSnakeHair {
-  background-image: url("./imgs_cards_tooltip/036_TheSnakeHair.png");
+  background-image: url("/imgs_cards_tooltip/036_TheSnakeHair.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -612px;
+}
+
+/*037 Gaia the Dragon Champion */
+a.tooltip:hover span.card--GaiatheDragonChampion {
+  background-image: url("/imgs_cards_tooltip/037_GaiatheDragonChampion.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -531px;
+}
+
+/*038 Gaia the Fierce Knight */
+a.tooltip:hover span.card--GaiatheFierceKnight {
+  background-image: url("/imgs_cards_tooltip/038_GaiatheFierceKnight.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -490px;
+}
+
+/*039 Curse Of Dragon */
+a.tooltip:hover span.card--CurseOfDragon {
+  background-image: url("/imgs_cards_tooltip/039_CurseOfDragon.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -9px;
+  margin-left: -635px;
+}
+
+/*040 Dragon Piper */
+a.tooltip:hover span.card--DragonPiper {
+  background-image: url("/imgs_cards_tooltip/040_DragonPiper.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -9px;
+  margin-left: -590px;
+}
+
+/*041 Celtic Guardian */
+a.tooltip:hover span.card--CelticGuardian {
+  background-image: url("/imgs_cards_tooltip/041_CelticGuardian.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -627px;
+}
+
+/*042 Illusionist Faceless Mage */
+a.tooltip:hover span.card--IllusionistFacelessMage {
+  background-image: url("/imgs_cards_tooltip/042_IllusionistFacelessMage.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -463px;
+}
+
+/*043 Karbonala Warrior */
+a.tooltip:hover span.card--KarbonalaWarrior {
+  background-image: url("/imgs_cards_tooltip/043_KarbonalaWarrior.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -676px;
+}
+
+/*044 Rogue Doll */
+a.tooltip:hover span.card--RogueDoll {
+  background-image: url("/imgs_cards_tooltip/044_RogueDoll.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -558px;
+}
+
+/*045 Oscillo Hero */
+a.tooltip:hover span.card--OscilloHero {
+  background-image: url("/imgs_cards_tooltip/045_OscilloHero.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -628px;
+}
+
+/*046 Griffore */
+a.tooltip:hover span.card--Griffore {
+  background-image: url("/imgs_cards_tooltip/046_Griffore.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -520px;
+}
+
+/*047 Torike */
+a.tooltip:hover span.card--Torike {
+  background-image: url("/imgs_cards_tooltip/047_Torike.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -488px;
+}
+
+/*048 Sangan */
+a.tooltip:hover span.card--Sangan {
+  background-image: url("/imgs_cards_tooltip/048_Sangan.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -488px;
+}
+
+/*049 Big Insect */
+a.tooltip:hover span.card--BigInsect {
+  background-image: url("/imgs_cards_tooltip/049_BigInsect.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -544px;
+}
+
+/*050 Basic Insect */
+a.tooltip:hover span.card--BasicInsect {
+  background-image: url("/imgs_cards_tooltip/050_BasicInsect");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -571px;
+}
+
+/*051 Armored Lizard */
+a.tooltip:hover span.card--ArmoredLizard {
+  background-image: url("/imgs_cards_tooltip/051_ArmoredLizard.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -623px;
+}
+
+/*052 Hercules Beetle*/
+a.tooltip:hover span.card--HerculesBeetle {
+  background-image: url("/imgs_cards_tooltip/052_Hercules Beetle.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -628px;
+}
+
+/*053 Killer Needle */
+a.tooltip:hover span.card--KillerNeedle {
+  background-image: url("/imgs_cards_tooltip/053_Killer Needle.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -596px;
+}
+
+/*054 Gokibore */
+a.tooltip:hover span.card--Gokibore {
+  background-image: url("/imgs_cards_tooltip/054_Gokibore.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -526px;
+}
+
+/*055 Giant Flea */
+a.tooltip:hover span.card--GiantFlea {
+  background-image: url("/imgs_cards_tooltip/055_GiantFlea.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -545px;
+}
+
+/*056 Larvae Moth */
+a.tooltip:hover span.card--LarvaeMoth {
+  background-image: url("/imgs_cards_tooltip/056_LarvaeMoth.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -571px;
+}
+
+/*200 Petit Dragon */
+a.tooltip:hover span.card--PetitDragon {
+  background-image: url("/imgs_cards_tooltip/200_PetitDragon.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -584px;
+}
+
+/*217 B. Skull Dragon */
+a.tooltip:hover span.card--BSkullDragon {
+  background-image: url("/imgs_cards_tooltip/217_BSkullDragon.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -636px;
+}
+
+/*224 Trap Master */
+a.tooltip:hover span.card--TrapMaster {
+  background-image: url("/imgs_cards_tooltip/224_TrapMaster.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -572px;
+}
+
+/*300 Kurama */
+a.tooltip:hover span.card--Kurama {
+  background-image: url("/imgs_cards_tooltip/300_Kurama.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -496px;
+}
+
+/*350 Dark-Piercing Light */
+a.tooltip:hover span.card--Dark-PiercingLight {
+  background-image: url("/imgs_cards_tooltip/350_DarkpiercingLight.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -685px;
+}
+
+/*357 Yamadron */
+a.tooltip:hover span.card--Yamadron {
+  background-image: url("/imgs_cards_tooltip/357_Yamadron.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -535px;
+}
+
+/*358 Seiyaryu */
+a.tooltip:hover span.card--Seiyaryu {
+  background-image: url("/imgs_cards_tooltip/358_Seiyaryu.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -515px;
+}
+
+/*359 Three-Legged Zombie */
+a.tooltip:hover span.card--ThreeLeggedZombie {
+  background-image: url("/imgs_cards_tooltip/359_ThreeleggedZombies.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -495px;
+}
+
+/*360 Zera The Mant */
+a.tooltip:hover span.card--ZeraTheMant {
+  background-image: url("/imgs_cards_tooltip/360_ZeraTheMant.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -600px;
+}
+
+/*361 Flying Penguin */
+a.tooltip:hover span.card--FlyingPenguin {
+  background-image: url("/imgs_cards_tooltip/361_FlyingPenguin.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -617px;
+}
+
+/* 362 Millennium Shield */
+a.tooltip:hover span.card--MillenniumShield {
+  background-image: url("/imgs_cards_tooltip/362_MillenniumShield.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -667px;
+}
+
+/* 363 Fairy Gift */
+a.tooltip:hover span.card--FairyGift {
+  background-image: url("/imgs_cards_tooltip/363_FairysGift.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -562px;
+}
+
+/* 364 Black Luster Soldier */
+a.tooltip:hover span.card--BlackLusterSoldier {
+  background-image: url("/imgs_cards_tooltip/364_BlackLusterSoldier.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -31px;
+  margin-left: -505px;
+}
+
+/* 365 Fiend's Mirror */
+a.tooltip:hover span.card--FiendsMirror {
+  background-image: url("/imgs_cards_tooltip/365_FiendsMirror.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -612px;
+}
+
+/* 366 Labyrinth Wall */
+a.tooltip:hover span.card--LabyrinthWall {
+  background-image: url("/imgs_cards_tooltip/366_LabyrinthWall.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -615px;
+}
+
+/* 367 Jirai Gumo */
+a.tooltip:hover span.card--JiraiGumo {
+  background-image: url("/imgs_cards_tooltip/367_JiraiGumo.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -555px;
+}
+
+/* 368 Shadow Ghoul*/
+a.tooltip:hover span.card--ShadowGhoul {
+  background-image: url("/imgs_cards_tooltip/368_ShadowGhoul.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -598px;
+}
+
+/* 369 Wall Shadow*/
+a.tooltip:hover span.card--WallShadow {
+  background-image: url("/imgs_cards_tooltip/369_WallShadow.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -584px;
+}
+
+/* 370 Labyrinth Tank */
+a.tooltip:hover span.card--LabyrinthTank {
+  background-image: url("/imgs_cards_tooltip/370_LabyrinthTank.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -614px;
+}
+
+/* 380 Blue Eyes Ultimate Dragon */
+a.tooltip:hover span.card--BlueEyesUltimateDragon {
+  background-image: url("/imgs_cards_tooltip/380_BlueeyesUltimateDragon.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -498px;
+}
+
+/* 391 Zoa */
+a.tooltip:hover span.card--Zoa {
+  background-image: url("/imgs_cards_tooltip/391_Zoa.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -9px;
+  margin-left: -447px;
+}
+
+/* 392 Metalzoa */
+a.tooltip:hover span.card--Metalzoa {
+  background-image: url("/imgs_cards_tooltip/392_Metalzoa.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -525px;
+}
+
+/* 651 Kunai With Chain */
+a.tooltip:hover span.card--KunaiWithChain {
+  background-image: url("/imgs_cards_tooltip/651_KunaiwithChain.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -650px;
+}
+
+/* 657 Megamorph */
+a.tooltip:hover span.card--Megamorph {
+  background-image: url("/imgs_cards_tooltip/657_Megamorph.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -558px;
+}
+
+/* 667 Gate Guardian Ritual */
+a.tooltip:hover span.card--GateGuardianRitual {
+  background-image: url("/imgs_cards_tooltip/667_GateGuardianRitual.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -29px;
+  margin-left: -486px;
+}
+
+/* 668 Bright Castle */
+a.tooltip:hover span.card--BrightCastle {
+  background-image: url("/imgs_cards_tooltip/668_BrightCastle.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -593px;
+}
+
+/* 690 Fake Trap */
+a.tooltip:hover span.card--FakeTrap {
+  background-image: url("/imgs_cards_tooltip/690_FakeTrap.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -535px;
+}
+
+/* 698 Cosmo Queen's Prayer */
+a.tooltip:hover span.card--CosmoQueensPrayer {
+  background-image: url("/imgs_cards_tooltip/698_CosmoQueensPrayer.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -29px;
+  margin-left: -493px;
+}
+
+/* 708 Cosmo Queen */
+a.tooltip:hover span.card--CosmoQueen {
+  background-image: url("/imgs_cards_tooltip/708_CosmoQueen.jpg");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1619,12 +2303,12 @@ a.tooltip:hover span.card--TheSnakeHair {
   display: inline;
   position: absolute;
   margin-top: -10px;
-  margin-left: -619px;
+  margin-left: -580px;
 }
 
-/*722*/
-a.tooltip:hover span.card--MBlackCaos {
-  background-image: url("./imgs_cards_tooltip/722_Magician_of_Black_Chaos.png");
+/* 713 Meteor Dragon */
+a.tooltip:hover span.card--MeteonDragon {
+  background-image: url("/imgs_cards_tooltip/712_MeteorDragon.png");
   background-position: center center;
   background-size: contain; /* <------ */
   background-repeat: no-repeat;
@@ -1632,7 +2316,50 @@ a.tooltip:hover span.card--MBlackCaos {
   color: #eee;
   display: inline;
   position: absolute;
-  margin-top: -300px;
+  margin-top: -8px;
+  margin-left: -621px;
+}
+
+/* 713 Meteor B. Dragon */
+a.tooltip:hover span.card--MeteonBDragon {
+  background-image: url("/imgs_cards_tooltip/713_MeteorBDragon.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -9px;
+  margin-left: -660px;
+}
+
+/* 721 Dark Magic Ritual */
+a.tooltip:hover span.card--DarkMagicRitual {
+  background-image: url("/imgs_cards_tooltip/721_DarkMagicRitual.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -285px;
+  margin-left: -663px;
+}
+
+/*722*/
+a.tooltip:hover span.card--MBlackCaos {
+  background-image: url("/imgs_cards_tooltip/722_Magician_of_Black_Chaos.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -290px;
+  margin-left: -478px;
 }
 
 a.tooltip {
@@ -1670,10 +2397,11 @@ body:hover {
   display: flex;
   flex-direction: column;
 } 
+/* Variáveis de Cores da página*/
 /* Content | Table */
 /*BACKG BODY*/
 /*HEADER*/
-/*BACKG HEADER | COLOR HEADER */
+/*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
 /*TABLE*/
 /*CONTENT TABLE*/
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
@@ -1690,4 +2418,19 @@ body:hover {
 /* Media screen de 901 - 1262 */
 /* Media screen de 1263 - 11582 */
 /* MEDIA SCREEN */
-/* CONTENT_MENU_ESQUERDA | 0 A 719 *//*# sourceMappingURL=index.css.map */
+/* CONTENT_MENU_ESQUERDA | 0 A 719 */
+/* Footer */
+/*FOOTER DA PÁGINA*/
+footer {
+  margin-top: 5px;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); /* backg color footer */
+  color: whitesmoke;
+  height: 50px;
+}
+
+@keyframes span {}
+iframe {
+  margin-top: 0;
+  width: 100%;
+  height: 2000px;
+}/*# sourceMappingURL=index.css.map */

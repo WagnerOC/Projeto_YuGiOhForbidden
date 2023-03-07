@@ -24,10 +24,6 @@ a{
   text-decoration: none;
 }
 
-iframe{
-  margin-top: 100%;
-  width: 90%;
-}
 
 
 
@@ -44,4 +40,8 @@ iframe{
 /* Cards ToolTip | Passando o mouse sobre a carta*/
 @import './722Cards_tooltip_.scss';
 
+/* Variáveis de Cores da página*/
 @import './variaveis_pg_tb_';
+
+/* Footer */
+@import './footerPgTB';

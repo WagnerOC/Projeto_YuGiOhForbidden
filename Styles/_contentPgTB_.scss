@@ -19,7 +19,7 @@
       width: 100%;
       background-color: rgba(52, 80, 80, 0.719);
       border-radius: 5px;
-      box-shadow: 1px 3px 20px 1px purple;
+      box-shadow: 0px 0px 20px 2px rgb(0, 41, 128);
     }
 
     /* N CARTA ATK DFS PASS STAR */
@@ -144,6 +144,7 @@
             color: $color_atk_dfs_td;
             font-weight: 700;
             font-size: 20px;
+            text-align: center;
           }
 
           /* Font-family, Color ATK DEF PASS */
@@ -152,6 +153,7 @@
             color: $color_atk_dfs_td;
             font-weight: 700;
             font-size: 20px;
+            text-align: center;
           }
 
 
@@ -160,7 +162,7 @@
           td:nth-child(5) {
             font-family: "Yuji Mai", serif;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 18px;
             color: $color_password_td;
           }
           
