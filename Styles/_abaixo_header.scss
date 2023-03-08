@@ -13,10 +13,14 @@
   src: url(/fonts/Burn\ out\,\ fade\ away.ttf);
 }
 
+
 /* DIV COM TDO O HEADER */
 .abaixo_header{
   background-color: $colorBlack;
-  margin: 20px;
+  box-sizing: border-box;
+  max-width: 80%;
+  margin: auto;
+  height: 280px;
   border-radius: 5px;
   padding: 20px 30px 10px 30px;
 }
@@ -29,25 +33,89 @@
 
 /* Título Games Woc DIV PAI DOS SPANS */
 .titulo_GamesWoc{
-  color: rgba(255, 187, 0, 0.877);
-  font-size: 25px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 700;
   position:absolute;
   margin: 0px 0 0 10px ;
-  width: 140px;
+  width: 200px;
   font-family: fontGamesWoc;
   font-weight: 700;
   font-style:none;
+  letter-spacing: 1px;
 }
 
 .titulo_GamesWoc span.spanGamesWoc{
-  animation-name: none;
-  animation-duration: 5s;
+  animation-name: gamesWoc;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   
 }
+      .spanGamesWoc:nth-of-type(1){
+        font-size: 30px;     
+      }
+
+      .spanGamesWoc:nth-of-type(2){
+        animation-delay: 0.50s;       
+      }
+
+      .spanGamesWoc:nth-of-type(3){
+        animation-delay: 0.750s;
+      }
+
+      .spanGamesWoc:nth-of-type(4){
+        animation-delay: 1s;
+      }
+
+      .spanGamesWoc:nth-of-type(5){
+        animation-delay: 1.25s;
+      }
+
+      .spanGamesWoc:nth-of-type(6){
+        animation-delay: 1.50s;
+        font-size: 29px;
+      }
+
+      .spanGamesWoc:nth-of-type(7){
+        animation-delay: 1.75s;
+      }
+
+      .spanGamesWoc:nth-of-type(8){
+        animation-delay: 1.75s;
+      }
+
+      @keyframes gamesWoc{
+        0%{   
+          text-shadow:
+          0 0 12px $colorPurple,
+          0 0 50px $colorPurple,
+          0 0 100px $colorPurple; 
+        }
+        25%{
+         padding: 1%;
+        }
+        45%{
+          padding: 1%;
+         }
+        60%{
+          padding: 1%;
+        }
+        75%{
+          padding: 1%;
+        }
+        90%{
+          color:rgba(187, 123, 50, 0.651);
+          text-shadow: none;
+          text-shadow:
+          0 0 12px rgba(201, 20, 59, 0.993),
+          0 0 100px blue,
+          0 0 70px green; 
+        }
+      }
+
+     
+
 
 
 
@@ -214,7 +282,7 @@
               animation-delay: 4s;
             }
 
-            span.span_Forbidden:nth-of-type(18){
+            span.span_Forbidden:nth-of-type(18){  
               animation-delay: 4s;
             }
 
@@ -246,4 +314,183 @@
                     0 0 70px rgb(0, 119, 128); 
                   }
                 }
+   
+   .cods_list_cards{
+      display: flex;
+      justify-content: center;
+      padding: 30px 0 0 0;
+   }             
+   
+   .img_logo_yugi_title {
+     width: 120px;
+   }
+   
+   .tracksGame{
+    position: absolute;
+    margin: -2px;
+    margin-left: 65%;
+   }
+        
+   /* GitHub Email Whatsapp */
+   #redesSociais{
+      position: absolute;
+      display: flex;
+      margin-left: 1070px;
+      margin-top: -200px;
+   }     
+        
+        /* Link da fonte que peguei no Icons8.com / obrigatório ter na página*/
+        .link_icon_Icons8{
+          color: rgba(0, 0, 0, 0.048);
+        }   
+        
+        .criadorConteudo{
+          width: 50px;
+          height: 60px;
+          position: absolute;
+          margin-top: -55px;
+          margin-left: 50px;
+        }
+
+         /*UL Header redes sociais*/
+        .ul_header{
+          margin: 11px 0 0 0;
+          margin-left: 0px;
+          width: 0;
+          padding: 0;     
+        }
+  
+        /*Paragrafo do GITHub*/
+         .paragrafoGit{
+          font-size: 16px;
+          font-family: "frijole",cursive;
+          color: rgb(11, 47, 124);
+          margin: 0 0 5px 0;
+          &:hover {
+            color: rgba(17, 107, 70, 0.897);
+            transition: 500ms;
+          }
+  
+         }
+        /* Passando o mouse sobre o Paragrafo do GitHub*/
+        /* GitHub */
+         a.to_tip:hover span.img_git{
+          background-image: url("/imgs/github_img.pgn.png");
+          background-position: center center;
+          background-size: contain; /* <------ */
+          background-repeat: no-repeat;
+          border: 1px solid #fff;
+          color: #eee;
+          display: inline;
+          position: absolute;
+        }
+        /* LinkedIn */
+        a.to_tip:hover span.img_linkedin{
+          background-image: url("/imgs/linkedin_logo.png");
+          background-position: center center;
+          background-size: contain; /* <------ */
+          background-repeat: no-repeat;
+          border: 1px solid #fff;
+          color: #eee;
+          display: inline;
+          position: absolute;
+        }
+        /*E-mail*/
+        a.to_tip:hover span.img_email{
+          background-image: url("/imgs/email_logo.png");
+          background-position: center center;
+          background-size: contain; /* <------ */
+          background-repeat: no-repeat;
+          border: 1px solid #fff;
+          color: #eee;
+          display: inline;
+          position: absolute;
+          height: 50px;
+         
+        }
+        /*Whattsapp*/
+        a.to_tip:hover span.img_whattsap{
+          background-image: url("/imgs/whattsap_img.png");
+          background-position: center center;
+          background-size: contain; /* <------ */
+          background-repeat: no-repeat;
+          border: 1px solid #fff;
+          color: #eee;
+          display: inline;
+          position: absolute;
+         
+        }
+  
+        a.to_tip {
+          outline: none;
+        }
+        
+        a.to_tip strong {
+          line-height: 10px;
+        }
+        
+        a.to_tip:hover {
+          text-decoration: none;
+        }
+        
+        a.to_tip span {
+          border-radius: 1px;
+          box-shadow: 0px 0px 4px 2px #666;
+          display: none;
+          margin-left: 120px;
+          margin-top: -20px;
+          padding: 2px 2px;
+          width: 50px;
+          height: 50px;
+          z-index: 10;
+        }
+
+        a.to_tip span.img_linkedin{
+          border-radius: 1px;
+          box-shadow: 0px 0px 4px 2px #666;
+          display: none;
+          margin-left: 120px;
+          margin-top: -20px;
+          padding: 2px 2px;
+          width: 50px;
+          height: 50px;
+          z-index: 10;
+        }
+  
+        a.to_tip span.img_email {
+          border-radius: 1px;
+          box-shadow: 0px 0px 4px 2px #666;
+          display: none;
+          margin-left: 120px;
+          margin-top: -20px;
+          padding: 2px 2px;
+          width: 50px;
+          height: 50px;
+          z-index: 10;
+        }
+  
+        a.to_tip span.img_whattsap {
+          border-radius: 1px;
+          box-shadow: 0px 0px 4px 2px #666;
+          display: none;
+          margin-left: 120px;
+          margin-top: -20px;
+          padding: 2px 2px;
+          width: 50px;
+          height: 50px;
+          z-index: 10;
+        }
+        
+        .callout {
+          border: 0;
+          left: 120px;
+          position: absolute;
+          top: -14px;
+          z-index: 20;
+        }
+        
+        body:hover {
+          display: flex;
+          flex-direction: column;
+        }
 
