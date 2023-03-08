@@ -29,6 +29,11 @@ a {
 /*BACKG BODY*/
 /*HEADER*/
 /*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
+/*ANIMAÇÃO ABAIXO HEADER YU GI OH !*/
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
 /*TABLE*/
 /*CONTENT TABLE*/
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
@@ -48,12 +53,34 @@ a {
 /* CONTENT_MENU_ESQUERDA | 0 A 719 */
 .header {
   height: 100px;
-  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
-  display: grid;
-  grid-auto-flow: column;
+  background: rgb(62, 18, 7);
+  background: radial-gradient(circle, rgba(62, 18, 7, 0.812762605) 6%, rgba(24, 24, 29, 0.9192051821) 43%, rgba(27, 3, 3, 0.8967962185) 76%);
   padding: 0px 20px 10px 20px;
   border-radius: 5px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.noMarginNoPadd {
+  margin: 0;
+  padding: 0;
+}
+
+.link_icon_Icons8 {
+  color: rgba(0, 0, 0, 0.048);
+}
+
+.titulo_sub h1 {
+  margin-left: -100px;
+  font-size: 33px;
+  margin-top: 20px;
+  width: 170px;
+}
+
+.titulo_sub p {
+  margin-left: 100px;
+  margin-top: -16px;
 }
 
 .header a {
@@ -61,20 +88,20 @@ a {
   font-size: 45px;
   font-family: "Anton", sans-serif;
   font-weight: 700;
-  display: flex;
   align-items: center;
-  justify-content: left;
 }
 
 .header img {
   width: 210px;
+  align-items: center;
 }
 
 /*UL Header*/
 .ul_header {
   margin: 11px 0 0 0;
-  margin-left: 800px;
+  margin-left: 0px;
   width: 0;
+  padding: 0;
 }
 
 /*Paragrafo do GITHub*/
@@ -208,7 +235,7 @@ body:hover {
 @media screen and (min-width: 1085.5px) and (max-width: 1262px) {
   .header {
     height: 100px;
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-image: radial-gradient(circle, rgba(62, 18, 7, 0.812762605) 6%, rgba(24, 24, 29, 0.9192051821) 43%, rgba(27, 3, 3, 0.8967962185) 76%);
     display: grid;
     grid-auto-flow: column;
     padding: 0px 20px 10px 20px;
@@ -238,7 +265,7 @@ body:hover {
 @media screen and (min-width: 901px) and (max-width: 1085px) {
   .header {
     height: 100px;
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-image: radial-gradient(circle, rgba(62, 18, 7, 0.812762605) 6%, rgba(24, 24, 29, 0.9192051821) 43%, rgba(27, 3, 3, 0.8967962185) 76%);
     padding: 0px 20px 10px 20px;
     border-radius: 5px;
     width: 600px;
@@ -268,11 +295,263 @@ body:hover {
     display: none; /* Retirei o Header da página*/
   }
 }
+/* Abaixo do Header*/
+/* ABAIXO DO HEADER */
+/* Content | Table */
+/*BACKG BODY*/
+/*HEADER*/
+/*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
+/*ANIMAÇÃO ABAIXO HEADER YU GI OH !*/
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
+/*TABLE*/
+/*CONTENT TABLE*/
+/*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
+/*BACKG TABLE | BACKG FIRST TD | COLOR FIRST TD  */
+/* CARTA | COLOR ANIMAÇOES E HOVER DA SEGUNDA COLUNA */
+/*CORES DAS COLUNAS | ATK | DFS | PASS | STARS */
+/*CARDS*/
+/*MAGIC CARDS*/
+/*TRAP CARDS*/
+/*RITUAL CARDS*/
+/* Content Menu Esquerdo | menu li a */
+/* Media screen de 0 - 900    */
+/* Media screen de 901 - 1083 */
+/* Media screen de 901 - 1262 */
+/* Media screen de 1263 - 11582 */
+/* MEDIA SCREEN */
+/* CONTENT_MENU_ESQUERDA | 0 A 719 */
+/* Título Yu Gi Oh Forbidden Memories*/
+@font-face {
+  font-family: fontSquealer;
+  src: url(/fonts/Squealer\ Embossed.otf);
+}
+/*Título Games Woc*/
+@font-face {
+  font-family: fontGamesWoc;
+  src: url(/fonts/Burn\ out\,\ fade\ away.ttf);
+}
+/* DIV COM TDO O HEADER */
+.abaixo_header {
+  background-color: #040305;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px 30px 10px 30px;
+}
+
+.controle_logo {
+  width: 27px;
+  position: absolute;
+  margin: -1px 0 0 14px;
+}
+
+/* Título Games Woc DIV PAI DOS SPANS */
+.titulo_GamesWoc {
+  color: rgba(255, 187, 0, 0.877);
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  position: absolute;
+  margin: 0px 0 0 10px;
+  width: 140px;
+  font-family: fontGamesWoc;
+  font-weight: 700;
+  font-style: none;
+}
+
+.titulo_GamesWoc span.spanGamesWoc {
+  animation-name: none;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/* LINK TITULO GAMESWOC DIV PAI DOS SPANS */
+.titulo_GamesWoc a {
+  text-decoration: none;
+  color: rgba(255, 187, 0, 0.877);
+}
+
+/* YU GI OH   ANIMATION*/
+.container_yugioh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-family: fontSquealer;
+}
+
+/* DIV YUGI SPAN ANIMATION*/
+.container_yugioh span.spanYuGiOh {
+  color: rgba(182, 163, 138, 0.9);
+  animation-name: Yugi;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transition: 5s;
+}
+
+.spanYuGiOh:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+
+.spanYuGiOh:nth-of-type(3) {
+  animation-delay: 0.75s;
+}
+
+.spanYuGiOh:nth-of-type(4) {
+  animation-delay: 1s;
+}
+
+.spanYuGiOh:nth-of-type(5) {
+  animation-delay: 1.25s;
+}
+
+span.spanYuGiOh:nth-of-type(6) {
+  animation-delay: 1.5s;
+}
+
+span.spanYuGiOh:nth-of-type(7) {
+  animation-delay: 1.75s;
+}
+
+span.spanYuGiOh:nth-of-type(8) {
+  animation-delay: 2s;
+}
+
+@keyframes Yugi {
+  0% {
+    text-shadow: 0 0 12px #9800ce, 0 0 50px #9800ce, 0 0 100px #9800ce;
+    font-size: 30px;
+  }
+  90% {
+    color: rgba(182, 163, 138, 0.9);
+    text-shadow: none;
+    font-size: 30px;
+    text-shadow: 0 0 12px rgba(255, 255, 0, 0.692), 0 0 100px blue, 0 0 70px green;
+  }
+}
+/* FORBIDDEN MEMORIES   ANIMATION */
+.container_forbidden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 20px;
+  letter-spacing: 10px;
+  font-family: fontSquealer;
+}
+
+.container_forbidden span.span_Forbidden {
+  color: rgba(141, 116, 70, 0.9);
+  animation-name: brilho_Forbidden;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transition: 5s;
+}
+
+span.span_Forbidden:nth-of-type(2) {
+  animation-delay: 0.25s;
+}
+
+span.span_Forbidden:nth-of-type(3) {
+  animation-delay: 0.5s;
+}
+
+span.span_Forbidden:nth-of-type(4) {
+  animation-delay: 0.75s;
+}
+
+span.span_Forbidden:nth-of-type(5) {
+  animation-delay: 1s;
+}
+
+span.span_Forbidden:nth-of-type(6) {
+  animation-delay: 1.25s;
+}
+
+span.span_Forbidden:nth-of-type(7) {
+  animation-delay: 1.5s;
+}
+
+span.span_Forbidden:nth-of-type(8) {
+  animation-delay: 1.75s;
+}
+
+span.span_Forbidden:nth-of-type(9) {
+  animation-delay: 2s;
+}
+
+span.span_Forbidden:nth-of-type(10) {
+  animation-delay: 2.25s;
+}
+
+span.span_Forbidden:nth-of-type(11) {
+  animation-delay: 2.5s;
+}
+
+span.span_Forbidden:nth-of-type(12) {
+  animation-delay: 2.75s;
+}
+
+span.span_Forbidden:nth-of-type(13) {
+  animation-delay: 3s;
+}
+
+span.span_Forbidden:nth-of-type(14) {
+  animation-delay: 3.25s;
+}
+
+span.span_Forbidden:nth-of-type(15) {
+  animation-delay: 3.5s;
+}
+
+span.span_Forbidden:nth-of-type(16) {
+  animation-delay: 3.75s;
+}
+
+span.span_Forbidden:nth-of-type(17) {
+  animation-delay: 4s;
+}
+
+span.span_Forbidden:nth-of-type(18) {
+  animation-delay: 4s;
+}
+
+span.span_Forbidden:nth-of-type(19) {
+  animation-delay: 4s;
+}
+
+@keyframes brilho_Forbidden {
+  0% {
+    text-shadow: 0 0 12px #9800ce, 0 0 50px #9800ce, 0 0 100px #9800ce;
+    font-size: 20px;
+  }
+  50% {
+    font-size: 18px;
+  }
+  90% {
+    color: rgba(141, 116, 70, 0.9);
+    text-shadow: none;
+    font-size: 26px;
+    text-shadow: 0 0 12px rgba(255, 0, 119, 0.692), 0 0 100px rgb(187, 255, 0), 0 0 70px rgb(0, 119, 128);
+  }
+}
 /* Tabela de Cartas */
 /* Content da Tabela */ /* Content | Table */
 /*BACKG BODY*/
 /*HEADER*/
 /*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
+/*ANIMAÇÃO ABAIXO HEADER YU GI OH !*/
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
 /*TABLE*/
 /*CONTENT TABLE*/
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
@@ -840,6 +1119,11 @@ body:hover {
 /*BACKG BODY*/
 /*HEADER*/
 /*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
+/*ANIMAÇÃO ABAIXO HEADER YU GI OH !*/
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
 /*TABLE*/
 /*CONTENT TABLE*/
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
@@ -2402,6 +2686,11 @@ body:hover {
 /*BACKG BODY*/
 /*HEADER*/
 /*BACKG HEADER - COLOR HEADER |  BCKG FOOTER - COLOR FOOTER*/
+/*ANIMAÇÃO ABAIXO HEADER YU GI OH !*/
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
+/*Animação Yu Gi Oh!*/
+/* Animação Forbidden */
 /*TABLE*/
 /*CONTENT TABLE*/
 /*BACKG CABECALHO | COLOR CABECALHO | COLOR N° */
@@ -2423,7 +2712,7 @@ body:hover {
 /*FOOTER DA PÁGINA*/
 footer {
   margin-top: 5px;
-  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); /* backg color footer */
+  /*background-image: $backg_color_header; /* backg color footer */
   color: whitesmoke;
   height: 50px;
 }

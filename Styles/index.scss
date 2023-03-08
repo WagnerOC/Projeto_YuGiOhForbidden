@@ -25,13 +25,13 @@ a{
 }
 
 
-
-
 /* Header */
 @import './headerPageTB_.scss';
 
-/* Tabela de Cartas */
+/* Abaixo do Header*/
+@import  './abaixo_header';
 
+/* Tabela de Cartas */
 @import './contentPgTB_.scss';
 
 /* Menu Lateral Esquerda */

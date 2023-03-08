@@ -1,0 +1,249 @@
+/* ABAIXO DO HEADER */
+@import './variaveis_pg_tb_';
+
+/* Título Yu Gi Oh Forbidden Memories*/
+@font-face {
+  font-family: fontSquealer;
+  src: url(/fonts/Squealer\ Embossed.otf);
+}
+
+/*Título Games Woc*/
+@font-face{
+  font-family: fontGamesWoc;
+  src: url(/fonts/Burn\ out\,\ fade\ away.ttf);
+}
+
+/* DIV COM TDO O HEADER */
+.abaixo_header{
+  background-color: $colorBlack;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px 30px 10px 30px;
+}
+
+.controle_logo{
+  width: 27px;
+  position: absolute;
+  margin: -1px 0 0 14px;
+}
+
+/* Título Games Woc DIV PAI DOS SPANS */
+.titulo_GamesWoc{
+  color: rgba(255, 187, 0, 0.877);
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  position:absolute;
+  margin: 0px 0 0 10px ;
+  width: 140px;
+  font-family: fontGamesWoc;
+  font-weight: 700;
+  font-style:none;
+}
+
+.titulo_GamesWoc span.spanGamesWoc{
+  animation-name: none;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  
+}
+
+
+
+/* LINK TITULO GAMESWOC DIV PAI DOS SPANS */
+.titulo_GamesWoc a{
+  text-decoration: none;
+  color:rgba(255, 187, 0, 0.877);
+}
+
+
+/* YU GI OH   ANIMATION*/
+.container_yugioh{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-family: fontSquealer;
+}
+  
+
+    /* DIV YUGI SPAN ANIMATION*/
+
+    .container_yugioh span.spanYuGiOh{
+      color: $color_text_YuAnimation;
+      animation-name: Yugi;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      transition: 5s;      
+    }
+
+          .spanYuGiOh:nth-of-type(2){
+            animation-delay: 0.50s;       
+          }
+
+          .spanYuGiOh:nth-of-type(3){
+            animation-delay: 0.750s;
+          }
+
+          .spanYuGiOh:nth-of-type(4){
+            animation-delay: 1s;
+          }
+
+          .spanYuGiOh:nth-of-type(5){
+            animation-delay: 1.25s;
+          }
+
+          span.spanYuGiOh:nth-of-type(6){
+            animation-delay: 1.50s;
+          }
+
+          span.spanYuGiOh:nth-of-type(7){
+            animation-delay: 1.75s;
+          }
+
+          span.spanYuGiOh:nth-of-type(8){
+            animation-delay: 2s;
+          }
+
+              @keyframes Yugi{
+                0%{   
+                  text-shadow:
+                  0 0 12px $colorPurple,
+                  0 0 50px $colorPurple,
+                  0 0 100px $colorPurple;
+                  font-size: 30px;
+                }
+                90%{
+                  color:$color_text_YuAnimation;
+                  text-shadow: none;
+                  font-size: 30px;
+                  text-shadow:
+                  0 0 12px rgba(255, 255, 0, 0.692),
+                  0 0 100px blue,
+                  0 0 70px green; 
+                }
+              }
+
+
+/* FORBIDDEN MEMORIES   ANIMATION */
+
+.container_forbidden{
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 20px;
+  letter-spacing: 10px;
+  font-family: fontSquealer;
+}
+
+      .container_forbidden span.span_Forbidden{
+        color: $color_text_YuAnimation2;
+        animation-name: brilho_Forbidden;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        transition: 5s;
+      }
+
+            span.span_Forbidden:nth-of-type(2){
+              animation-delay: 0.25s;
+            }
+
+            span.span_Forbidden:nth-of-type(3){
+              animation-delay: 0.50s;
+            }
+
+            span.span_Forbidden:nth-of-type(4){
+              animation-delay: 0.75s;
+            }
+
+            span.span_Forbidden:nth-of-type(5){
+              animation-delay: 1s;
+            }
+
+            span.span_Forbidden:nth-of-type(6){
+              animation-delay: 1.25s;
+            }
+
+            span.span_Forbidden:nth-of-type(7){
+              animation-delay: 1.50s;
+            }
+
+            span.span_Forbidden:nth-of-type(8){
+              animation-delay: 1.75s;
+            }
+
+            span.span_Forbidden:nth-of-type(9){
+              animation-delay: 2s;
+            }
+
+            span.span_Forbidden:nth-of-type(10){
+              animation-delay: 2.25s;
+            }
+
+            span.span_Forbidden:nth-of-type(11){
+              animation-delay: 2.50s;
+            }
+
+            span.span_Forbidden:nth-of-type(12){
+              animation-delay: 2.75s;
+            }
+
+            span.span_Forbidden:nth-of-type(13){
+              animation-delay: 3s;
+            }
+
+            span.span_Forbidden:nth-of-type(14){
+              animation-delay: 3.25s;
+            }
+
+            span.span_Forbidden:nth-of-type(15){
+              animation-delay: 3.50s;
+            }
+
+            span.span_Forbidden:nth-of-type(16){
+              animation-delay: 3.75s;
+            }
+
+            span.span_Forbidden:nth-of-type(17){
+              animation-delay: 4s;
+            }
+
+            span.span_Forbidden:nth-of-type(18){
+              animation-delay: 4s;
+            }
+
+
+            span.span_Forbidden:nth-of-type(19){
+              animation-delay: 4s;
+            }
+
+
+
+                @keyframes brilho_Forbidden{
+                  0%{   
+                    text-shadow:
+                    0 0 12px $colorPurple,
+                    0 0 50px $colorPurple,
+                    0 0 100px $colorPurple;
+                    font-size: 20px;
+                  }
+                  50%{
+                    font-size: 18px;
+                  }
+                  90%{
+                    color:$color_text_YuAnimation2;
+                    text-shadow: none;
+                    font-size: 26px;
+                    text-shadow:
+                    0 0 12px rgba(255, 0, 119, 0.692),
+                    0 0 100px rgb(187, 255, 0),
+                    0 0 70px rgb(0, 119, 128); 
+                  }
+                }
+
