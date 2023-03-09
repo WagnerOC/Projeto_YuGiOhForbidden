@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  cursor: url(/imgs/carta_virada_pBaixo.ani), default;
 }
 
 html {
@@ -65,7 +66,7 @@ a {
 }
 /* DIV COM TDO O HEADER */
 .abaixo_header {
-  background-color: #040305;
+  background-color: rgba(4, 3, 5, 0.8980392157);
   box-sizing: border-box;
   max-width: 80%;
   margin: auto;
@@ -229,6 +230,7 @@ span.spanYuGiOh:nth-of-type(8) {
   justify-content: center;
   align-items: center;
   margin-top: 5px;
+  margin-bottom: 30px;
   font-size: 20px;
   letter-spacing: 10px;
   font-family: fontSquealer;
@@ -330,14 +332,23 @@ span.span_Forbidden:nth-of-type(19) {
     text-shadow: 0 0 12px rgba(255, 0, 119, 0.692), 0 0 100px rgb(187, 255, 0), 0 0 70px rgb(0, 119, 128);
   }
 }
+/*DIV PAI IMG YU GI | H2 CÓDIGOS L CARTAS*/
 .cods_list_cards {
   display: flex;
   justify-content: center;
-  padding: 30px 0 0 0;
+  padding: 0px 0 0 0;
+  width: 50%;
+  background-color: blue;
+  margin: auto;
+}
+
+.cods_list_cards h2 {
+  width: 100%;
 }
 
 .img_logo_yugi_title {
   width: 120px;
+  margin-right: 18%;
 }
 
 .tracksGame {
@@ -638,6 +649,10 @@ body:hover {
   margin-left: 15px;
   background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
   border-radius: 2px;
+  cursor: url(/imgs/carta_virada_pBaixo.ani), default;
+}
+.content_tb td:hover {
+  cursor: url(/imgs/carta_virada_pBaixo.png);
 }
 .content_tb td:nth-child(1) {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;

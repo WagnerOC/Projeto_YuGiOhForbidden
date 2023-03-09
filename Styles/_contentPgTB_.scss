@@ -93,8 +93,12 @@
           margin-left: 15px;
           background-image: $bckg_color_table_td;
           border-radius: 2px;
+          cursor: url(/imgs/carta_virada_pBaixo.ani),default;
         }
         
+        td:hover{
+          cursor:url(/imgs/carta_virada_pBaixo.png);
+        }
           /* Primeira Coluna */
           td:nth-child(1) {
             background: $bckg_color_first_td;

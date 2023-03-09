@@ -204,6 +204,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 5px;
+  margin-bottom: 30px;
   font-size: 20px;
   letter-spacing: 10px;
   font-family: fontSquealer;
@@ -314,15 +315,23 @@
                     0 0 70px rgb(0, 119, 128); 
                   }
                 }
-   
+   /*DIV PAI IMG YU GI | H2 CÓDIGOS L CARTAS*/
    .cods_list_cards{
       display: flex;
       justify-content: center;
-      padding: 30px 0 0 0;
-   }             
+      padding: 0px 0 0 0;
+      width: 50%;
+      background-color: blue;
+      margin: auto;
+   }       
+   
+   .cods_list_cards h2{
+     width: 100%;
+   }
    
    .img_logo_yugi_title {
      width: 120px;
+     margin-right: 18%;
    }
    
    .tracksGame{
