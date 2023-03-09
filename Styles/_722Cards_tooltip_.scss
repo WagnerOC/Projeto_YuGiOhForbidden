@@ -784,7 +784,64 @@ a.tooltip:hover span.card--LarvaeMoth{
   margin-left: -571px;
 }
 
+/*057 Great Moth */
+a.tooltip:hover span.card--GreatMoth{
+  background-image: url("/imgs_cards_tooltip/057_GreatMoth.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -503px;
+  transform: rotateY(360deg);
+  animation-name: girar;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  transition: 500ms;
+  box-shadow: 0 1px 1000px 1px purple;
+}
 
+
+@keyframes girar{
+    0%{
+      transform: rotateY(-20deg);
+      box-shadow: 0 1px 100px 1px purple;
+    }
+    25%{
+      transform: rotateY(35deg);
+      box-shadow: 0 1px 100px 1px rgb(128, 0, 107);
+    }
+    50%{
+      transform: rotateY(96deg);
+      box-shadow: 0 1px 100px 1px rgb(70, 0, 128);
+    }
+    75%{
+      transform: rotateY(-50deg);
+      box-shadow: 0 1px 100px 1px rgb(13, 0, 128);
+    }
+    100%{
+      transform: rotateY(0deg);
+      box-shadow: 0 1px 100px 1px rgb(81, 0, 128);
+    }
+}
+
+/*058 Kuriboh */
+a.tooltip:hover span.card--Kuriboh{
+  background-image: url("/imgs_cards_tooltip/058_Kuriboh.png");
+  background-position: center center;
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
+  color: #eee;
+  display: inline;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -451px;
+}
 
 /*200 Petit Dragon */
 a.tooltip:hover span.card--PetitDragon {
